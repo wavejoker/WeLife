@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.welife.mapper.WeMessageMapper" >
+  <resultMap id="BaseResultMap" type="com.welife.pojo.WeMessage" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="sender_id" property="senderId" jdbcType="BIGINT" />
+    <result column="receiver_id" property="receiverId" jdbcType="BIGINT" />
+    <result column="msg_status" property="msgStatus" jdbcType="INTEGER" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.welife.pojo.WeMessage" extends="BaseResultMap" >
+    <result column="msg_content" property="msgContent" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, sender_id, receiver_id, msg_status, created
+  </sql>
+  <sql id="Blob_Column_List" >
+    msg_content
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.welife.pojo.WeMessageExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from we_message
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.welife.pojo.WeMessageExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from we_message
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from we_message
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from we_message
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.welife.pojo.WeMessageExample" >
+    delete from we_message
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.welife.pojo.WeMessage" >
+    insert into we_message (id, sender_id, receiver_id, 
+      msg_status, created, msg_content
+      )
+    values (#{id,jdbcType=BIGINT}, #{senderId,jdbcType=BIGINT}, #{receiverId,jdbcType=BIGINT}, 
+      #{msgStatus,jdbcType=INTEGER}, #{created,jdbcType=TIMESTAMP}, #{msgContent,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.welife.pojo.WeMessage" >
+    insert into we_message
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="senderId != null" >
+        sender_id,
+      </if>
+      <if test="receiverId != null" >
+        receiver_id,
+      </if>
+      <if test="msgStatus != null" >
+        msg_status,
+      </if>
+      <if test="created != null" >
+        created,
+      </if>
+      <if test="msgContent != null" >
+        msg_content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="senderId != null" >
+        #{senderId,jdbcType=BIGINT},
+      </if>
+      <if test="receiverId != null" >
+        #{receiverId,jdbcType=BIGINT},
+      </if>
+      <if test="msgStatus != null" >
+        #{msgStatus,jdbcType=INTEGER},
+      </if>
+      <if test="created != null" >
+        #{created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="msgContent != null" >
+        #{msgContent,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.welife.pojo.WeMessageExample" resultType="java.lang.Integer" >
+    select count(*) from we_message
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update we_message
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=BIGINT},
+      </if>
+      <if test="record.senderId != null" >
+        sender_id = #{record.senderId,jdbcType=BIGINT},
+      </if>
+      <if test="record.receiverId != null" >
+        receiver_id = #{record.receiverId,jdbcType=BIGINT},
+      </if>
+      <if test="record.msgStatus != null" >
+        msg_status = #{record.msgStatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.created != null" >
+        created = #{record.created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.msgContent != null" >
+        msg_content = #{record.msgContent,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update we_message
+    set id = #{record.id,jdbcType=BIGINT},
+      sender_id = #{record.senderId,jdbcType=BIGINT},
+      receiver_id = #{record.receiverId,jdbcType=BIGINT},
+      msg_status = #{record.msgStatus,jdbcType=INTEGER},
+      created = #{record.created,jdbcType=TIMESTAMP},
+      msg_content = #{record.msgContent,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update we_message
+    set id = #{record.id,jdbcType=BIGINT},
+      sender_id = #{record.senderId,jdbcType=BIGINT},
+      receiver_id = #{record.receiverId,jdbcType=BIGINT},
+      msg_status = #{record.msgStatus,jdbcType=INTEGER},
+      created = #{record.created,jdbcType=TIMESTAMP}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.welife.pojo.WeMessage" >
+    update we_message
+    <set >
+      <if test="senderId != null" >
+        sender_id = #{senderId,jdbcType=BIGINT},
+      </if>
+      <if test="receiverId != null" >
+        receiver_id = #{receiverId,jdbcType=BIGINT},
+      </if>
+      <if test="msgStatus != null" >
+        msg_status = #{msgStatus,jdbcType=INTEGER},
+      </if>
+      <if test="created != null" >
+        created = #{created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="msgContent != null" >
+        msg_content = #{msgContent,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.welife.pojo.WeMessage" >
+    update we_message
+    set sender_id = #{senderId,jdbcType=BIGINT},
+      receiver_id = #{receiverId,jdbcType=BIGINT},
+      msg_status = #{msgStatus,jdbcType=INTEGER},
+      created = #{created,jdbcType=TIMESTAMP},
+      msg_content = #{msgContent,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.welife.pojo.WeMessage" >
+    update we_message
+    set sender_id = #{senderId,jdbcType=BIGINT},
+      receiver_id = #{receiverId,jdbcType=BIGINT},
+      msg_status = #{msgStatus,jdbcType=INTEGER},
+      created = #{created,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.welife.mapper.WeOrderMapper" >
+  <resultMap id="BaseResultMap" type="com.welife.pojo.WeOrder" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="user_id" property="userId" jdbcType="BIGINT" />
+    <result column="payment" property="payment" jdbcType="VARCHAR" />
+    <result column="payment_type" property="paymentType" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="buyer_msg" property="buyerMsg" jdbcType="VARCHAR" />
+    <result column="buyer_nick" property="buyerNick" jdbcType="VARCHAR" />
+    <result column="buyer_rate" property="buyerRate" jdbcType="VARCHAR" />
+    <result column="finish_time" property="finishTime" jdbcType="TIMESTAMP" />
+    <result column="close_time" property="closeTime" jdbcType="TIMESTAMP" />
+    <result column="consign_time" property="consignTime" jdbcType="TIMESTAMP" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+    <result column="shipping_name" property="shippingName" jdbcType="VARCHAR" />
+    <result column="shipping_code" property="shippingCode" jdbcType="VARCHAR" />
+    <result column="post_fee" property="postFee" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, user_id, payment, payment_type, status, buyer_msg, buyer_nick, buyer_rate, finish_time, 
+    close_time, consign_time, created, updated, shipping_name, shipping_code, post_fee
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.welife.pojo.WeOrderExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from we_order
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from we_order
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from we_order
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.welife.pojo.WeOrderExample" >
+    delete from we_order
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.welife.pojo.WeOrder" >
+    insert into we_order (id, user_id, payment, 
+      payment_type, status, buyer_msg, 
+      buyer_nick, buyer_rate, finish_time, 
+      close_time, consign_time, created, 
+      updated, shipping_name, shipping_code, 
+      post_fee)
+    values (#{id,jdbcType=VARCHAR}, #{userId,jdbcType=BIGINT}, #{payment,jdbcType=VARCHAR}, 
+      #{paymentType,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, #{buyerMsg,jdbcType=VARCHAR}, 
+      #{buyerNick,jdbcType=VARCHAR}, #{buyerRate,jdbcType=VARCHAR}, #{finishTime,jdbcType=TIMESTAMP}, 
+      #{closeTime,jdbcType=TIMESTAMP}, #{consignTime,jdbcType=TIMESTAMP}, #{created,jdbcType=TIMESTAMP}, 
+      #{updated,jdbcType=TIMESTAMP}, #{shippingName,jdbcType=VARCHAR}, #{shippingCode,jdbcType=VARCHAR}, 
+      #{postFee,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.welife.pojo.WeOrder" >
+    insert into we_order
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="userId != null" >
+        user_id,
+      </if>
+      <if test="payment != null" >
+        payment,
+      </if>
+      <if test="paymentType != null" >
+        payment_type,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="buyerMsg != null" >
+        buyer_msg,
+      </if>
+      <if test="buyerNick != null" >
+        buyer_nick,
+      </if>
+      <if test="buyerRate != null" >
+        buyer_rate,
+      </if>
+      <if test="finishTime != null" >
+        finish_time,
+      </if>
+      <if test="closeTime != null" >
+        close_time,
+      </if>
+      <if test="consignTime != null" >
+        consign_time,
+      </if>
+      <if test="created != null" >
+        created,
+      </if>
+      <if test="updated != null" >
+        updated,
+      </if>
+      <if test="shippingName != null" >
+        shipping_name,
+      </if>
+      <if test="shippingCode != null" >
+        shipping_code,
+      </if>
+      <if test="postFee != null" >
+        post_fee,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null" >
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="payment != null" >
+        #{payment,jdbcType=VARCHAR},
+      </if>
+      <if test="paymentType != null" >
+        #{paymentType,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="buyerMsg != null" >
+        #{buyerMsg,jdbcType=VARCHAR},
+      </if>
+      <if test="buyerNick != null" >
+        #{buyerNick,jdbcType=VARCHAR},
+      </if>
+      <if test="buyerRate != null" >
+        #{buyerRate,jdbcType=VARCHAR},
+      </if>
+      <if test="finishTime != null" >
+        #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="closeTime != null" >
+        #{closeTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="consignTime != null" >
+        #{consignTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="created != null" >
+        #{created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updated != null" >
+        #{updated,jdbcType=TIMESTAMP},
+      </if>
+      <if test="shippingName != null" >
+        #{shippingName,jdbcType=VARCHAR},
+      </if>
+      <if test="shippingCode != null" >
+        #{shippingCode,jdbcType=VARCHAR},
+      </if>
+      <if test="postFee != null" >
+        #{postFee,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.welife.pojo.WeOrderExample" resultType="java.lang.Integer" >
+    select count(*) from we_order
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update we_order
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.userId != null" >
+        user_id = #{record.userId,jdbcType=BIGINT},
+      </if>
+      <if test="record.payment != null" >
+        payment = #{record.payment,jdbcType=VARCHAR},
+      </if>
+      <if test="record.paymentType != null" >
+        payment_type = #{record.paymentType,jdbcType=INTEGER},
+      </if>
+      <if test="record.status != null" >
+        status = #{record.status,jdbcType=INTEGER},
+      </if>
+      <if test="record.buyerMsg != null" >
+        buyer_msg = #{record.buyerMsg,jdbcType=VARCHAR},
+      </if>
+      <if test="record.buyerNick != null" >
+        buyer_nick = #{record.buyerNick,jdbcType=VARCHAR},
+      </if>
+      <if test="record.buyerRate != null" >
+        buyer_rate = #{record.buyerRate,jdbcType=VARCHAR},
+      </if>
+      <if test="record.finishTime != null" >
+        finish_time = #{record.finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.closeTime != null" >
+        close_time = #{record.closeTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.consignTime != null" >
+        consign_time = #{record.consignTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.created != null" >
+        created = #{record.created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.updated != null" >
+        updated = #{record.updated,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.shippingName != null" >
+        shipping_name = #{record.shippingName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.shippingCode != null" >
+        shipping_code = #{record.shippingCode,jdbcType=VARCHAR},
+      </if>
+      <if test="record.postFee != null" >
+        post_fee = #{record.postFee,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update we_order
+    set id = #{record.id,jdbcType=VARCHAR},
+      user_id = #{record.userId,jdbcType=BIGINT},
+      payment = #{record.payment,jdbcType=VARCHAR},
+      payment_type = #{record.paymentType,jdbcType=INTEGER},
+      status = #{record.status,jdbcType=INTEGER},
+      buyer_msg = #{record.buyerMsg,jdbcType=VARCHAR},
+      buyer_nick = #{record.buyerNick,jdbcType=VARCHAR},
+      buyer_rate = #{record.buyerRate,jdbcType=VARCHAR},
+      finish_time = #{record.finishTime,jdbcType=TIMESTAMP},
+      close_time = #{record.closeTime,jdbcType=TIMESTAMP},
+      consign_time = #{record.consignTime,jdbcType=TIMESTAMP},
+      created = #{record.created,jdbcType=TIMESTAMP},
+      updated = #{record.updated,jdbcType=TIMESTAMP},
+      shipping_name = #{record.shippingName,jdbcType=VARCHAR},
+      shipping_code = #{record.shippingCode,jdbcType=VARCHAR},
+      post_fee = #{record.postFee,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.welife.pojo.WeOrder" >
+    update we_order
+    <set >
+      <if test="userId != null" >
+        user_id = #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="payment != null" >
+        payment = #{payment,jdbcType=VARCHAR},
+      </if>
+      <if test="paymentType != null" >
+        payment_type = #{paymentType,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="buyerMsg != null" >
+        buyer_msg = #{buyerMsg,jdbcType=VARCHAR},
+      </if>
+      <if test="buyerNick != null" >
+        buyer_nick = #{buyerNick,jdbcType=VARCHAR},
+      </if>
+      <if test="buyerRate != null" >
+        buyer_rate = #{buyerRate,jdbcType=VARCHAR},
+      </if>
+      <if test="finishTime != null" >
+        finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="closeTime != null" >
+        close_time = #{closeTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="consignTime != null" >
+        consign_time = #{consignTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="created != null" >
+        created = #{created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updated != null" >
+        updated = #{updated,jdbcType=TIMESTAMP},
+      </if>
+      <if test="shippingName != null" >
+        shipping_name = #{shippingName,jdbcType=VARCHAR},
+      </if>
+      <if test="shippingCode != null" >
+        shipping_code = #{shippingCode,jdbcType=VARCHAR},
+      </if>
+      <if test="postFee != null" >
+        post_fee = #{postFee,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.welife.pojo.WeOrder" >
+    update we_order
+    set user_id = #{userId,jdbcType=BIGINT},
+      payment = #{payment,jdbcType=VARCHAR},
+      payment_type = #{paymentType,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      buyer_msg = #{buyerMsg,jdbcType=VARCHAR},
+      buyer_nick = #{buyerNick,jdbcType=VARCHAR},
+      buyer_rate = #{buyerRate,jdbcType=VARCHAR},
+      finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      close_time = #{closeTime,jdbcType=TIMESTAMP},
+      consign_time = #{consignTime,jdbcType=TIMESTAMP},
+      created = #{created,jdbcType=TIMESTAMP},
+      updated = #{updated,jdbcType=TIMESTAMP},
+      shipping_name = #{shippingName,jdbcType=VARCHAR},
+      shipping_code = #{shippingCode,jdbcType=VARCHAR},
+      post_fee = #{postFee,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.welife.mapper.WeUserMapper" >
+  <resultMap id="BaseResultMap" type="com.welife.pojo.WeUser" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="username" property="username" jdbcType="BIGINT" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="nickname" property="nickname" jdbcType="VARCHAR" />
+    <result column="exp" property="exp" jdbcType="BIGINT" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="profession" property="profession" jdbcType="VARCHAR" />
+    <result column="gread" property="gread" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="birthday" property="birthday" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="head" property="head" jdbcType="VARCHAR" />
+    <result column="identity" property="identity" jdbcType="VARCHAR" />
+    <result column="signature" property="signature" jdbcType="VARCHAR" />
+    <result column="background" property="background" jdbcType="VARCHAR" />
+    <result column="createtime" property="createtime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, username, password, nickname, exp, phone, profession, gread, sex, birthday, status, 
+    head, identity, signature, background, createtime
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.welife.pojo.WeUserExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from we_user
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from we_user
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from we_user
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.welife.pojo.WeUserExample" >
+    delete from we_user
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.welife.pojo.WeUser" >
+    insert into we_user (id, username, password, 
+      nickname, exp, phone, 
+      profession, gread, sex, 
+      birthday, status, head, 
+      identity, signature, background, 
+      createtime)
+    values (#{id,jdbcType=BIGINT}, #{username,jdbcType=BIGINT}, #{password,jdbcType=VARCHAR}, 
+      #{nickname,jdbcType=VARCHAR}, #{exp,jdbcType=BIGINT}, #{phone,jdbcType=VARCHAR}, 
+      #{profession,jdbcType=VARCHAR}, #{gread,jdbcType=VARCHAR}, #{sex,jdbcType=INTEGER}, 
+      #{birthday,jdbcType=TIMESTAMP}, #{status,jdbcType=INTEGER}, #{head,jdbcType=VARCHAR}, 
+      #{identity,jdbcType=VARCHAR}, #{signature,jdbcType=VARCHAR}, #{background,jdbcType=VARCHAR}, 
+      #{createtime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.welife.pojo.WeUser" >
+    insert into we_user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="username != null" >
+        username,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+      <if test="nickname != null" >
+        nickname,
+      </if>
+      <if test="exp != null" >
+        exp,
+      </if>
+      <if test="phone != null" >
+        phone,
+      </if>
+      <if test="profession != null" >
+        profession,
+      </if>
+      <if test="gread != null" >
+        gread,
+      </if>
+      <if test="sex != null" >
+        sex,
+      </if>
+      <if test="birthday != null" >
+        birthday,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="head != null" >
+        head,
+      </if>
+      <if test="identity != null" >
+        identity,
+      </if>
+      <if test="signature != null" >
+        signature,
+      </if>
+      <if test="background != null" >
+        background,
+      </if>
+      <if test="createtime != null" >
+        createtime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="username != null" >
+        #{username,jdbcType=BIGINT},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null" >
+        #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="exp != null" >
+        #{exp,jdbcType=BIGINT},
+      </if>
+      <if test="phone != null" >
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="profession != null" >
+        #{profession,jdbcType=VARCHAR},
+      </if>
+      <if test="gread != null" >
+        #{gread,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        #{sex,jdbcType=INTEGER},
+      </if>
+      <if test="birthday != null" >
+        #{birthday,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="head != null" >
+        #{head,jdbcType=VARCHAR},
+      </if>
+      <if test="identity != null" >
+        #{identity,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null" >
+        #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="background != null" >
+        #{background,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.welife.pojo.WeUserExample" resultType="java.lang.Integer" >
+    select count(*) from we_user
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update we_user
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=BIGINT},
+      </if>
+      <if test="record.username != null" >
+        username = #{record.username,jdbcType=BIGINT},
+      </if>
+      <if test="record.password != null" >
+        password = #{record.password,jdbcType=VARCHAR},
+      </if>
+      <if test="record.nickname != null" >
+        nickname = #{record.nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.exp != null" >
+        exp = #{record.exp,jdbcType=BIGINT},
+      </if>
+      <if test="record.phone != null" >
+        phone = #{record.phone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.profession != null" >
+        profession = #{record.profession,jdbcType=VARCHAR},
+      </if>
+      <if test="record.gread != null" >
+        gread = #{record.gread,jdbcType=VARCHAR},
+      </if>
+      <if test="record.sex != null" >
+        sex = #{record.sex,jdbcType=INTEGER},
+      </if>
+      <if test="record.birthday != null" >
+        birthday = #{record.birthday,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.status != null" >
+        status = #{record.status,jdbcType=INTEGER},
+      </if>
+      <if test="record.head != null" >
+        head = #{record.head,jdbcType=VARCHAR},
+      </if>
+      <if test="record.identity != null" >
+        identity = #{record.identity,jdbcType=VARCHAR},
+      </if>
+      <if test="record.signature != null" >
+        signature = #{record.signature,jdbcType=VARCHAR},
+      </if>
+      <if test="record.background != null" >
+        background = #{record.background,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createtime != null" >
+        createtime = #{record.createtime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update we_user
+    set id = #{record.id,jdbcType=BIGINT},
+      username = #{record.username,jdbcType=BIGINT},
+      password = #{record.password,jdbcType=VARCHAR},
+      nickname = #{record.nickname,jdbcType=VARCHAR},
+      exp = #{record.exp,jdbcType=BIGINT},
+      phone = #{record.phone,jdbcType=VARCHAR},
+      profession = #{record.profession,jdbcType=VARCHAR},
+      gread = #{record.gread,jdbcType=VARCHAR},
+      sex = #{record.sex,jdbcType=INTEGER},
+      birthday = #{record.birthday,jdbcType=TIMESTAMP},
+      status = #{record.status,jdbcType=INTEGER},
+      head = #{record.head,jdbcType=VARCHAR},
+      identity = #{record.identity,jdbcType=VARCHAR},
+      signature = #{record.signature,jdbcType=VARCHAR},
+      background = #{record.background,jdbcType=VARCHAR},
+      createtime = #{record.createtime,jdbcType=TIMESTAMP}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.welife.pojo.WeUser" >
+    update we_user
+    <set >
+      <if test="username != null" >
+        username = #{username,jdbcType=BIGINT},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="nickname != null" >
+        nickname = #{nickname,jdbcType=VARCHAR},
+      </if>
+      <if test="exp != null" >
+        exp = #{exp,jdbcType=BIGINT},
+      </if>
+      <if test="phone != null" >
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="profession != null" >
+        profession = #{profession,jdbcType=VARCHAR},
+      </if>
+      <if test="gread != null" >
+        gread = #{gread,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        sex = #{sex,jdbcType=INTEGER},
+      </if>
+      <if test="birthday != null" >
+        birthday = #{birthday,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="head != null" >
+        head = #{head,jdbcType=VARCHAR},
+      </if>
+      <if test="identity != null" >
+        identity = #{identity,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null" >
+        signature = #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="background != null" >
+        background = #{background,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        createtime = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.welife.pojo.WeUser" >
+    update we_user
+    set username = #{username,jdbcType=BIGINT},
+      password = #{password,jdbcType=VARCHAR},
+      nickname = #{nickname,jdbcType=VARCHAR},
+      exp = #{exp,jdbcType=BIGINT},
+      phone = #{phone,jdbcType=VARCHAR},
+      profession = #{profession,jdbcType=VARCHAR},
+      gread = #{gread,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=INTEGER},
+      birthday = #{birthday,jdbcType=TIMESTAMP},
+      status = #{status,jdbcType=INTEGER},
+      head = #{head,jdbcType=VARCHAR},
+      identity = #{identity,jdbcType=VARCHAR},
+      signature = #{signature,jdbcType=VARCHAR},
+      background = #{background,jdbcType=VARCHAR},
+      createtime = #{createtime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

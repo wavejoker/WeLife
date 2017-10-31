@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.welife.mapper.WePortReplyMapper" >
+  <resultMap id="BaseResultMap" type="com.welife.pojo.WePortReply" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="port_id" property="portId" jdbcType="BIGINT" />
+    <result column="reviewer_id" property="reviewerId" jdbcType="BIGINT" />
+    <result column="reply_comment_id" property="replyCommentId" jdbcType="BIGINT" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.welife.pojo.WePortReply" extends="BaseResultMap" >
+    <result column="content" property="content" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, port_id, reviewer_id, reply_comment_id, created
+  </sql>
+  <sql id="Blob_Column_List" >
+    content
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.welife.pojo.WePortReplyExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from we_port_reply
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.welife.pojo.WePortReplyExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from we_port_reply
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from we_port_reply
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from we_port_reply
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.welife.pojo.WePortReplyExample" >
+    delete from we_port_reply
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.welife.pojo.WePortReply" >
+    insert into we_port_reply (id, port_id, reviewer_id, 
+      reply_comment_id, created, content
+      )
+    values (#{id,jdbcType=BIGINT}, #{portId,jdbcType=BIGINT}, #{reviewerId,jdbcType=BIGINT}, 
+      #{replyCommentId,jdbcType=BIGINT}, #{created,jdbcType=TIMESTAMP}, #{content,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.welife.pojo.WePortReply" >
+    insert into we_port_reply
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="portId != null" >
+        port_id,
+      </if>
+      <if test="reviewerId != null" >
+        reviewer_id,
+      </if>
+      <if test="replyCommentId != null" >
+        reply_comment_id,
+      </if>
+      <if test="created != null" >
+        created,
+      </if>
+      <if test="content != null" >
+        content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="portId != null" >
+        #{portId,jdbcType=BIGINT},
+      </if>
+      <if test="reviewerId != null" >
+        #{reviewerId,jdbcType=BIGINT},
+      </if>
+      <if test="replyCommentId != null" >
+        #{replyCommentId,jdbcType=BIGINT},
+      </if>
+      <if test="created != null" >
+        #{created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="content != null" >
+        #{content,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.welife.pojo.WePortReplyExample" resultType="java.lang.Integer" >
+    select count(*) from we_port_reply
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update we_port_reply
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=BIGINT},
+      </if>
+      <if test="record.portId != null" >
+        port_id = #{record.portId,jdbcType=BIGINT},
+      </if>
+      <if test="record.reviewerId != null" >
+        reviewer_id = #{record.reviewerId,jdbcType=BIGINT},
+      </if>
+      <if test="record.replyCommentId != null" >
+        reply_comment_id = #{record.replyCommentId,jdbcType=BIGINT},
+      </if>
+      <if test="record.created != null" >
+        created = #{record.created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.content != null" >
+        content = #{record.content,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update we_port_reply
+    set id = #{record.id,jdbcType=BIGINT},
+      port_id = #{record.portId,jdbcType=BIGINT},
+      reviewer_id = #{record.reviewerId,jdbcType=BIGINT},
+      reply_comment_id = #{record.replyCommentId,jdbcType=BIGINT},
+      created = #{record.created,jdbcType=TIMESTAMP},
+      content = #{record.content,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update we_port_reply
+    set id = #{record.id,jdbcType=BIGINT},
+      port_id = #{record.portId,jdbcType=BIGINT},
+      reviewer_id = #{record.reviewerId,jdbcType=BIGINT},
+      reply_comment_id = #{record.replyCommentId,jdbcType=BIGINT},
+      created = #{record.created,jdbcType=TIMESTAMP}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.welife.pojo.WePortReply" >
+    update we_port_reply
+    <set >
+      <if test="portId != null" >
+        port_id = #{portId,jdbcType=BIGINT},
+      </if>
+      <if test="reviewerId != null" >
+        reviewer_id = #{reviewerId,jdbcType=BIGINT},
+      </if>
+      <if test="replyCommentId != null" >
+        reply_comment_id = #{replyCommentId,jdbcType=BIGINT},
+      </if>
+      <if test="created != null" >
+        created = #{created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="content != null" >
+        content = #{content,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.welife.pojo.WePortReply" >
+    update we_port_reply
+    set port_id = #{portId,jdbcType=BIGINT},
+      reviewer_id = #{reviewerId,jdbcType=BIGINT},
+      reply_comment_id = #{replyCommentId,jdbcType=BIGINT},
+      created = #{created,jdbcType=TIMESTAMP},
+      content = #{content,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.welife.pojo.WePortReply" >
+    update we_port_reply
+    set port_id = #{portId,jdbcType=BIGINT},
+      reviewer_id = #{reviewerId,jdbcType=BIGINT},
+      reply_comment_id = #{replyCommentId,jdbcType=BIGINT},
+      created = #{created,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

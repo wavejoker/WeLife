@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.welife.mapper.WeOrganizationMapper" >
+  <resultMap id="BaseResultMap" type="com.welife.pojo.WeOrganization" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="orgname" property="orgname" jdbcType="VARCHAR" />
+    <result column="createtime" property="createtime" jdbcType="TIMESTAMP" />
+    <result column="president_id" property="presidentId" jdbcType="BIGINT" />
+    <result column="orgdesc" property="orgdesc" jdbcType="VARCHAR" />
+    <result column="orglevel" property="orglevel" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.welife.pojo.WeOrganization" extends="BaseResultMap" >
+    <result column="orgmark" property="orgmark" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, orgname, createtime, president_id, orgdesc, orglevel
+  </sql>
+  <sql id="Blob_Column_List" >
+    orgmark
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.welife.pojo.WeOrganizationExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from we_organization
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.welife.pojo.WeOrganizationExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from we_organization
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from we_organization
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from we_organization
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.welife.pojo.WeOrganizationExample" >
+    delete from we_organization
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.welife.pojo.WeOrganization" >
+    insert into we_organization (id, orgname, createtime, 
+      president_id, orgdesc, orglevel, 
+      orgmark)
+    values (#{id,jdbcType=INTEGER}, #{orgname,jdbcType=VARCHAR}, #{createtime,jdbcType=TIMESTAMP}, 
+      #{presidentId,jdbcType=BIGINT}, #{orgdesc,jdbcType=VARCHAR}, #{orglevel,jdbcType=INTEGER}, 
+      #{orgmark,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.welife.pojo.WeOrganization" >
+    insert into we_organization
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="orgname != null" >
+        orgname,
+      </if>
+      <if test="createtime != null" >
+        createtime,
+      </if>
+      <if test="presidentId != null" >
+        president_id,
+      </if>
+      <if test="orgdesc != null" >
+        orgdesc,
+      </if>
+      <if test="orglevel != null" >
+        orglevel,
+      </if>
+      <if test="orgmark != null" >
+        orgmark,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="orgname != null" >
+        #{orgname,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="presidentId != null" >
+        #{presidentId,jdbcType=BIGINT},
+      </if>
+      <if test="orgdesc != null" >
+        #{orgdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="orglevel != null" >
+        #{orglevel,jdbcType=INTEGER},
+      </if>
+      <if test="orgmark != null" >
+        #{orgmark,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.welife.pojo.WeOrganizationExample" resultType="java.lang.Integer" >
+    select count(*) from we_organization
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update we_organization
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.orgname != null" >
+        orgname = #{record.orgname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createtime != null" >
+        createtime = #{record.createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.presidentId != null" >
+        president_id = #{record.presidentId,jdbcType=BIGINT},
+      </if>
+      <if test="record.orgdesc != null" >
+        orgdesc = #{record.orgdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="record.orglevel != null" >
+        orglevel = #{record.orglevel,jdbcType=INTEGER},
+      </if>
+      <if test="record.orgmark != null" >
+        orgmark = #{record.orgmark,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update we_organization
+    set id = #{record.id,jdbcType=INTEGER},
+      orgname = #{record.orgname,jdbcType=VARCHAR},
+      createtime = #{record.createtime,jdbcType=TIMESTAMP},
+      president_id = #{record.presidentId,jdbcType=BIGINT},
+      orgdesc = #{record.orgdesc,jdbcType=VARCHAR},
+      orglevel = #{record.orglevel,jdbcType=INTEGER},
+      orgmark = #{record.orgmark,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update we_organization
+    set id = #{record.id,jdbcType=INTEGER},
+      orgname = #{record.orgname,jdbcType=VARCHAR},
+      createtime = #{record.createtime,jdbcType=TIMESTAMP},
+      president_id = #{record.presidentId,jdbcType=BIGINT},
+      orgdesc = #{record.orgdesc,jdbcType=VARCHAR},
+      orglevel = #{record.orglevel,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.welife.pojo.WeOrganization" >
+    update we_organization
+    <set >
+      <if test="orgname != null" >
+        orgname = #{orgname,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null" >
+        createtime = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="presidentId != null" >
+        president_id = #{presidentId,jdbcType=BIGINT},
+      </if>
+      <if test="orgdesc != null" >
+        orgdesc = #{orgdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="orglevel != null" >
+        orglevel = #{orglevel,jdbcType=INTEGER},
+      </if>
+      <if test="orgmark != null" >
+        orgmark = #{orgmark,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.welife.pojo.WeOrganization" >
+    update we_organization
+    set orgname = #{orgname,jdbcType=VARCHAR},
+      createtime = #{createtime,jdbcType=TIMESTAMP},
+      president_id = #{presidentId,jdbcType=BIGINT},
+      orgdesc = #{orgdesc,jdbcType=VARCHAR},
+      orglevel = #{orglevel,jdbcType=INTEGER},
+      orgmark = #{orgmark,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.welife.pojo.WeOrganization" >
+    update we_organization
+    set orgname = #{orgname,jdbcType=VARCHAR},
+      createtime = #{createtime,jdbcType=TIMESTAMP},
+      president_id = #{presidentId,jdbcType=BIGINT},
+      orgdesc = #{orgdesc,jdbcType=VARCHAR},
+      orglevel = #{orglevel,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

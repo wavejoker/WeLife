@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.welife.mapper.WePortMapper" >
+  <resultMap id="BaseResultMap" type="com.welife.pojo.WePort" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="author_id" property="authorId" jdbcType="BIGINT" />
+    <result column="parent_id" property="parentId" jdbcType="BIGINT" />
+    <result column="content_id" property="contentId" jdbcType="BIGINT" />
+    <result column="pcid" property="pcid" jdbcType="BIGINT" />
+    <result column="isparent" property="isparent" jdbcType="INTEGER" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="anonymous" property="anonymous" jdbcType="INTEGER" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.welife.pojo.WePort" extends="BaseResultMap" >
+    <result column="content" property="content" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, author_id, parent_id, content_id, pcid, isparent, created, anonymous, status
+  </sql>
+  <sql id="Blob_Column_List" >
+    content
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.welife.pojo.WePortExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from we_port
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.welife.pojo.WePortExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from we_port
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from we_port
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from we_port
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.welife.pojo.WePortExample" >
+    delete from we_port
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.welife.pojo.WePort" >
+    insert into we_port (id, author_id, parent_id, 
+      content_id, pcid, isparent, 
+      created, anonymous, status, 
+      content)
+    values (#{id,jdbcType=BIGINT}, #{authorId,jdbcType=BIGINT}, #{parentId,jdbcType=BIGINT}, 
+      #{contentId,jdbcType=BIGINT}, #{pcid,jdbcType=BIGINT}, #{isparent,jdbcType=INTEGER}, 
+      #{created,jdbcType=TIMESTAMP}, #{anonymous,jdbcType=INTEGER}, #{status,jdbcType=INTEGER}, 
+      #{content,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.welife.pojo.WePort" >
+    insert into we_port
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="authorId != null" >
+        author_id,
+      </if>
+      <if test="parentId != null" >
+        parent_id,
+      </if>
+      <if test="contentId != null" >
+        content_id,
+      </if>
+      <if test="pcid != null" >
+        pcid,
+      </if>
+      <if test="isparent != null" >
+        isparent,
+      </if>
+      <if test="created != null" >
+        created,
+      </if>
+      <if test="anonymous != null" >
+        anonymous,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="content != null" >
+        content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="authorId != null" >
+        #{authorId,jdbcType=BIGINT},
+      </if>
+      <if test="parentId != null" >
+        #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="contentId != null" >
+        #{contentId,jdbcType=BIGINT},
+      </if>
+      <if test="pcid != null" >
+        #{pcid,jdbcType=BIGINT},
+      </if>
+      <if test="isparent != null" >
+        #{isparent,jdbcType=INTEGER},
+      </if>
+      <if test="created != null" >
+        #{created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="anonymous != null" >
+        #{anonymous,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="content != null" >
+        #{content,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.welife.pojo.WePortExample" resultType="java.lang.Integer" >
+    select count(*) from we_port
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update we_port
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=BIGINT},
+      </if>
+      <if test="record.authorId != null" >
+        author_id = #{record.authorId,jdbcType=BIGINT},
+      </if>
+      <if test="record.parentId != null" >
+        parent_id = #{record.parentId,jdbcType=BIGINT},
+      </if>
+      <if test="record.contentId != null" >
+        content_id = #{record.contentId,jdbcType=BIGINT},
+      </if>
+      <if test="record.pcid != null" >
+        pcid = #{record.pcid,jdbcType=BIGINT},
+      </if>
+      <if test="record.isparent != null" >
+        isparent = #{record.isparent,jdbcType=INTEGER},
+      </if>
+      <if test="record.created != null" >
+        created = #{record.created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.anonymous != null" >
+        anonymous = #{record.anonymous,jdbcType=INTEGER},
+      </if>
+      <if test="record.status != null" >
+        status = #{record.status,jdbcType=INTEGER},
+      </if>
+      <if test="record.content != null" >
+        content = #{record.content,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update we_port
+    set id = #{record.id,jdbcType=BIGINT},
+      author_id = #{record.authorId,jdbcType=BIGINT},
+      parent_id = #{record.parentId,jdbcType=BIGINT},
+      content_id = #{record.contentId,jdbcType=BIGINT},
+      pcid = #{record.pcid,jdbcType=BIGINT},
+      isparent = #{record.isparent,jdbcType=INTEGER},
+      created = #{record.created,jdbcType=TIMESTAMP},
+      anonymous = #{record.anonymous,jdbcType=INTEGER},
+      status = #{record.status,jdbcType=INTEGER},
+      content = #{record.content,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update we_port
+    set id = #{record.id,jdbcType=BIGINT},
+      author_id = #{record.authorId,jdbcType=BIGINT},
+      parent_id = #{record.parentId,jdbcType=BIGINT},
+      content_id = #{record.contentId,jdbcType=BIGINT},
+      pcid = #{record.pcid,jdbcType=BIGINT},
+      isparent = #{record.isparent,jdbcType=INTEGER},
+      created = #{record.created,jdbcType=TIMESTAMP},
+      anonymous = #{record.anonymous,jdbcType=INTEGER},
+      status = #{record.status,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.welife.pojo.WePort" >
+    update we_port
+    <set >
+      <if test="authorId != null" >
+        author_id = #{authorId,jdbcType=BIGINT},
+      </if>
+      <if test="parentId != null" >
+        parent_id = #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="contentId != null" >
+        content_id = #{contentId,jdbcType=BIGINT},
+      </if>
+      <if test="pcid != null" >
+        pcid = #{pcid,jdbcType=BIGINT},
+      </if>
+      <if test="isparent != null" >
+        isparent = #{isparent,jdbcType=INTEGER},
+      </if>
+      <if test="created != null" >
+        created = #{created,jdbcType=TIMESTAMP},
+      </if>
+      <if test="anonymous != null" >
+        anonymous = #{anonymous,jdbcType=INTEGER},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="content != null" >
+        content = #{content,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.welife.pojo.WePort" >
+    update we_port
+    set author_id = #{authorId,jdbcType=BIGINT},
+      parent_id = #{parentId,jdbcType=BIGINT},
+      content_id = #{contentId,jdbcType=BIGINT},
+      pcid = #{pcid,jdbcType=BIGINT},
+      isparent = #{isparent,jdbcType=INTEGER},
+      created = #{created,jdbcType=TIMESTAMP},
+      anonymous = #{anonymous,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      content = #{content,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.welife.pojo.WePort" >
+    update we_port
+    set author_id = #{authorId,jdbcType=BIGINT},
+      parent_id = #{parentId,jdbcType=BIGINT},
+      content_id = #{contentId,jdbcType=BIGINT},
+      pcid = #{pcid,jdbcType=BIGINT},
+      isparent = #{isparent,jdbcType=INTEGER},
+      created = #{created,jdbcType=TIMESTAMP},
+      anonymous = #{anonymous,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

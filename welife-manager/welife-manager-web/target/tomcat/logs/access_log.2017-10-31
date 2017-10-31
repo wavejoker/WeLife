@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [31/Oct/2017:11:17:47 +0800] "GET / HTTP/1.1" 200 2475 http-bio-8080-exec-1 972
+0:0:0:0:0:0:0:1 - - [31/Oct/2017:11:17:47 +0800] "GET /favicon.ico HTTP/1.1" 404 997 http-bio-8080-exec-7 23
+0:0:0:0:0:0:0:1 - - [31/Oct/2017:11:17:49 +0800] "GET /item-add?_=1509419867496 HTTP/1.1" 200 4701 http-bio-8080-exec-8 93
+0:0:0:0:0:0:0:1 - - [31/Oct/2017:11:17:49 +0800] "GET /js/kindeditor-4.1.10/kindeditor-all-min.js?_=1509419867497 HTTP/1.1" 200 179915 http-bio-8080-exec-9 14
+0:0:0:0:0:0:0:1 - - [31/Oct/2017:11:17:49 +0800] "GET /js/kindeditor-4.1.10/lang/zh_CN.js?_=1509419867498 HTTP/1.1" 200 8488 http-bio-8080-exec-10 6
+0:0:0:0:0:0:0:1 - - [31/Oct/2017:11:18:39 +0800] "POST /product/cat/list HTTP/1.1" 200 1075 http-bio-8080-exec-10 883
+0:0:0:0:0:0:0:1 - - [31/Oct/2017:11:18:40 +0800] "POST /product/cat/list HTTP/1.1" 200 330 http-bio-8080-exec-10 12
+0:0:0:0:0:0:0:1 - - [31/Oct/2017:11:18:41 +0800] "POST /product/cat/list HTTP/1.1" 200 804 http-bio-8080-exec-10 11
+0:0:0:0:0:0:0:1 - - [31/Oct/2017:11:18:42 +0800] "GET /product/param/query/itemcatid/76 HTTP/1.1" 404 949 http-bio-8080-exec-10 3
