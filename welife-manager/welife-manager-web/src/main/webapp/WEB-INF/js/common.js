@@ -190,7 +190,7 @@ var TT = TAOTAO = {
     },
     
     changeItemParam : function(node,formId){
-    	$.getJSON("/product/param/query/itemcatid/" + node.id,function(data){
+    	$.getJSON("/product/param/query/productCid/" + node.id,function(data){
 			  if(data.status == 200 && data.data){
 				 $("#"+formId+" .params").show();
 				 var paramData = JSON.parse(data.data.paramData);

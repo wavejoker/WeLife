@@ -21,16 +21,16 @@ public interface ProductParamService {
     EasyUIResult getProductParamList(Integer page, Integer rows);
 
     /**
-     * 根据商品分类ID获取商品参数
-     * @param cid
-     * @return
-     */
-    WeLifeResult getProductParamByCid(Integer cid);
-
-    /**
      * 添加商品参数
      * @param productParam
      * @return
      */
     WeLifeResult insertProductParam(WeProductParam productParam);
+
+    /**
+     * 根据商品分类获取商品参数
+     * @param cid
+     * @return
+     */
+    WeLifeResult getProductParamByCid(Long cid);
 }

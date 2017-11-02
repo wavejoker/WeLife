@@ -1,7 +1,10 @@
+com/welife/service/impl/ProductParamItemServiceImpl.class
 com/welife/service/PictureService.class
 com/welife/service/ProductCatService.class
 com/welife/service/impl/ProductServiceImpl.class
 com/welife/service/ProductParamService.class
+com/welife/service/ProductParamItemService.class
 com/welife/service/impl/ProductCatServiceImpl.class
 com/welife/service/impl/PictureServiceImpl.class
+com/welife/service/impl/ProductParamServiceImpl.class
 com/welife/service/ProductService.class

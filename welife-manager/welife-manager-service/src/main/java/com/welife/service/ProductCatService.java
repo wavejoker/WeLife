@@ -27,7 +27,6 @@ public interface ProductCatService {
      * @return
      */
     WeLifeResult getProductParamNameById(Long id);
-
     /**
      * 获得商品分类名称
      * @param id

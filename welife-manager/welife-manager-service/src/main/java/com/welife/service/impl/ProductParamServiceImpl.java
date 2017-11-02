@@ -5,9 +5,12 @@ import com.welife.common.utils.WeLifeResult;
 import com.welife.mapper.WeProductParamItemMapper;
 import com.welife.mapper.WeProductParamMapper;
 import com.welife.pojo.WeProductParam;
+import com.welife.pojo.WeProductParamExample;
 import com.welife.service.ProductParamService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @author Creeper
@@ -29,12 +32,21 @@ public class ProductParamServiceImpl implements ProductParamService {
     }
 
     @Override
-    public WeLifeResult getProductParamByCid(Integer cid) {
+    public WeLifeResult insertProductParam(WeProductParam productParam) {
         return null;
     }
 
     @Override
-    public WeLifeResult insertProductParam(WeProductParam productParam) {
-        return null;
+    public WeLifeResult getProductParamByCid(Long cid) {
+        WeProductParamExample example = new WeProductParamExample();
+        WeProductParamExample.Criteria criteria = example.createCriteria();
+        criteria.andProductCatIdEqualTo(cid);
+        List<WeProductParam> productParams = paramMapper.selectByExampleWithBLOBs(example);
+        //判断查询到的结果
+        if (productParams != null && productParams.size() > 0) {
+            return WeLifeResult.ok(productParams.get(0));
+        }
+        return WeLifeResult.ok();
     }
+
 }
