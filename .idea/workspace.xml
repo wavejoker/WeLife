@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb4e4a68-1b04-4533-8069-d81daefc6f38" name="Default" comment="项目创建">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/main/java/com/welife/service/ProductParamItemService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/main/java/com/welife/service/impl/ProductParamItemServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/test/java/com/welife/FTPClientTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dlist_jsp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/welife-parent/parent/welife-parent.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/welife-/parent/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/welife-/parent/welife-parent.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/test/java/com/welife/FtpClientTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/surefire-reports/TEST-com.welife.FtpClientTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/surefire-reports/com.welife.FtpClientTest.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/welife-parent/parent/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/classes/com/welife/mapper/WeProductParamItemMapper.xml" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/classes/com/welife/mapper/WeProductParamItemMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/classes/com/welife/mapper/WeProductParamMapper.xml" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/classes/com/welife/mapper/WeProductParamMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/surefire-reports/TEST-com.welife.AppTest.xml" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/surefire-reports/TEST-com.welife.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/surefire-reports/com.welife.AppTest.txt" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-mapper/target/surefire-reports/com.welife.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/surefire-reports/TEST-com.welife.AppTest.xml" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/surefire-reports/TEST-com.welife.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/surefire-reports/com.welife.AppTest.txt" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/surefire-reports/com.welife.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/main/java/com/welife/service/ProductCatService.java" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/main/java/com/welife/service/ProductCatService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/main/java/com/welife/service/ProductParamService.java" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/main/java/com/welife/service/ProductParamService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/main/java/com/welife/service/impl/ProductParamServiceImpl.java" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/src/main/java/com/welife/service/impl/ProductParamServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-web/src/main/java/com/welife/controller/ProductParamController.java" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-web/src/main/java/com/welife/controller/ProductParamController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-web/src/main/resources/resource/resource.properties" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-web/src/main/resources/resource/resource.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-web/src/main/webapp/WEB-INF/js/common.js" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-web/src/main/webapp/WEB-INF/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-web/target/tomcat/logs/access_log.2017-10-31" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-web/target/tomcat/logs/access_log.2017-10-31" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.java" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/welife-/parent/target/" />
     <ignored path="$PROJECT_DIR$/welife-common/target/" />
@@ -69,21 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="welife-parent.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/welife-parent/parent/welife-parent.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/welife-parent/parent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="214">
+              <caret line="216" column="10" lean-forward="true" selection-start-line="216" selection-start-column="10" selection-end-line="216" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -266,10 +220,6 @@
             <path>
               <item name="welife" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="welife" type="b2602c69:ProjectViewProjectNode" />
-              <item name="welife-common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -575,8 +525,16 @@
       <workItem from="1509443595980" duration="4346000" />
       <workItem from="1509451738654" duration="2002000" />
       <workItem from="1509495376978" duration="2597000" />
-      <workItem from="1509605219944" duration="4886000" />
+      <workItem from="1509605219944" duration="5865000" />
     </task>
+    <task id="LOCAL-00001" summary="项目创建">
+      <created>1509612405209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509612405209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -612,10 +570,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129404000" />
+    <option name="totallyTimeSpent" value="130383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="-6" width="1368" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -632,7 +591,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19347496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19347496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1083,8 +1042,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/welife-parent/parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="214">
+          <caret line="216" column="10" lean-forward="true" selection-start-line="216" selection-start-column="10" selection-end-line="216" selection-end-column="10" />
           <folding />
         </state>
       </provider>
