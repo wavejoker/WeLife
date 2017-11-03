@@ -5,10 +5,9 @@ import com.welife.common.utils.WeLifeResult;
 import com.welife.pojo.WeProduct;
 
 /**
- * @Author: Creeper
- * @DesCription: 商品管理服务
- * @Date: 17-10-22 下午10:23
- * @Modified By:
+ * 商品管理服务
+ * @author : Creeper
+ * @date : 17-10-22 下午10:23
  */
 public interface ProductService {
 
@@ -25,7 +24,7 @@ public interface ProductService {
      * @param productId
      * @return
      */
-    WeProduct getProductById(long productId);
+    WeProduct getProductById(Long productId);
 
     /**
      * 新建商品条目
@@ -35,4 +34,15 @@ public interface ProductService {
      * @throws Exception
      */
     WeLifeResult creatProduct(WeProduct product, String desc) throws Exception;
+
+    /**
+     * 根据商品ID查询商品描述
+     * @param productId
+     * @return
+     */
+    WeLifeResult getProductDescById(Long productId);
+
+    WeLifeResult getProductParamItemById(Long productId);
+
+
 }

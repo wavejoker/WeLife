@@ -7,9 +7,11 @@ import com.welife.common.utils.IDUtils;
 import com.welife.common.utils.WeLifeResult;
 import com.welife.mapper.WeProductDescMapper;
 import com.welife.mapper.WeProductMapper;
+import com.welife.mapper.WeProductParamItemMapper;
 import com.welife.pojo.WeProduct;
 import com.welife.pojo.WeProductDesc;
 import com.welife.pojo.WeProductExample;
+import com.welife.pojo.WeProductParamItem;
 import com.welife.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -31,6 +33,9 @@ public class ProductServiceImpl implements ProductService {
     @Autowired
     private WeProductDescMapper productDescMapper;
 
+    @Autowired
+    private WeProductParamItemMapper paramItemMapper;
+
     @Override
     public EasyUIResult getProductList(Integer pages, Integer rows) {
         WeProductExample productExample = new WeProductExample();
@@ -47,7 +52,7 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public WeProduct getProductById(long productId) {
+    public WeProduct getProductById(Long productId) {
         return null;
     }
 
@@ -65,6 +70,7 @@ public class ProductServiceImpl implements ProductService {
         return result;
     }
 
+
     private WeLifeResult insertProductDesc(Long productId, String desc){
         WeProductDesc productDesc = new WeProductDesc();
         productDesc.setProductId(productId);
@@ -72,5 +78,18 @@ public class ProductServiceImpl implements ProductService {
         productDescMapper.insert(productDesc);
         return WeLifeResult.ok();
     }
+
+    @Override
+    public WeLifeResult getProductDescById(Long productId) {
+        WeProductDesc productDesc = productDescMapper.selectByPrimaryKey(productId);
+        return WeLifeResult.ok(productDesc);
+    }
+
+    @Override
+    public WeLifeResult getProductParamItemById(Long productId) {
+        WeProductParamItem productParamItem = paramItemMapper.selectByPrimaryKey(productId);
+        return WeLifeResult.ok(productParamItem);
+    }
+
 
 }
