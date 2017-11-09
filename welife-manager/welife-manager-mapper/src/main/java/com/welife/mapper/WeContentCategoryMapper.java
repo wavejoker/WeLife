@@ -27,4 +27,9 @@ public interface WeContentCategoryMapper {
     int updateByPrimaryKeySelective(WeContentCategory record);
 
     int updateByPrimaryKey(WeContentCategory record);
+
+    int updateNameById(WeContentCategory category);
+
+    int updateIsParentById(Long id);
+
 }

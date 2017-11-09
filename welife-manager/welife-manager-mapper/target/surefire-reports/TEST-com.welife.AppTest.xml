@@ -33,7 +33,7 @@
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="maven.repo.local" value="/home/creeper/soft/maven/repository"/>
-    <property name="os.version" value="4.10.0-37-generic"/>
+    <property name="os.version" value="4.10.0-38-generic"/>
     <property name="user.home" value="/home/creeper"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>

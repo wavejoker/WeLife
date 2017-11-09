@@ -18,12 +18,13 @@ import java.util.List;
  * @Modified By:
  */
 @Controller
-@RequestMapping("/ ")
+@RequestMapping("/product/cat")
 public class ProductCatController {
 
     @Autowired
     private ProductCatService productCatService;
-    @RequestMapping(value = "list")
+
+    @RequestMapping(value = "/list")
     @ResponseBody
     public List<EUTreeNode> getProductList(@RequestParam(value = "id", defaultValue = "0") Long parentId){
         List<EUTreeNode> treeNodes = productCatService.getCatList(parentId);

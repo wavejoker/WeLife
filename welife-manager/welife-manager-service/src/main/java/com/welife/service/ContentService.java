@@ -6,11 +6,11 @@ import com.welife.pojo.WeContent;
 
 public interface ContentService {
 
-	public EasyUIResult getContentList(Long categoryId, Integer page, Integer rows);
-	
-	public WeLifeResult insertContent(WeContent content);
-	
-	public WeLifeResult updateContent(WeContent content);
-	
-	public WeLifeResult deleteContent(Long[] ids);
+    EasyUIResult getContentList(Long categoryId, Integer page, Integer rows);
+
+    WeLifeResult insertContent(WeContent content);
+
+    WeLifeResult updateContent(WeContent content);
+
+    WeLifeResult deleteContent(Long[] ids);
 }
