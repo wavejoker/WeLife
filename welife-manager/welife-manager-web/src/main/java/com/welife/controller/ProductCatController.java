@@ -18,7 +18,7 @@ import java.util.List;
  * @Modified By:
  */
 @Controller
-@RequestMapping("/product/cat")
+@RequestMapping("/ ")
 public class ProductCatController {
 
     @Autowired

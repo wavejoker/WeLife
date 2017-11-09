@@ -10,6 +10,7 @@ import redis.clients.jedis.JedisPool;
  * @date 17-11-9 上午9:28
  * @since 1.8.0_151
  */
+
 public class JedisSingleClient implements JedisClient {
     @Autowired
     private JedisPool jedisPool;

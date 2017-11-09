@@ -11,8 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 public interface RedisService {
     /**
      * 同步商品内容
+     *
      * @param contentCid
      * @return
      */
-    public WeLifeResult syncContent(Long contentCid);
+    WeLifeResult syncContent(Long contentCid);
 }

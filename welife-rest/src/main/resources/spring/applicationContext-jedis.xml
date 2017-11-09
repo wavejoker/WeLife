@@ -39,9 +39,9 @@
 	</bean>
 	<!-- Jedis单机版配置 -->
 	<bean id="jedisPool" class="redis.clients.jedis.JedisPool">
-		<constructor-arg name="host" value="192.168.19.129"></constructor-arg>
-		<constructor-arg name="port" value="6379"></constructor-arg>
-		<constructor-arg name="poolConfig" ref="jedisPoolConfig"></constructor-arg>
+		<constructor-arg name="host" value="192.168.19.129"/>
+		<constructor-arg name="port" value="6379"/>
+		<constructor-arg name="poolConfig" ref="jedisPoolConfig"/>
 	</bean>
 	<bean id="jedisSingleClient" class="com.welife.rest.dao.impl.JedisSingleClient" />
 	<!-- jedis集群版测试 -->

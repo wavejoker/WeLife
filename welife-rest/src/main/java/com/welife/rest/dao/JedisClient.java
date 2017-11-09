@@ -6,6 +6,7 @@ package com.welife.rest.dao;
  * @since 1.8.0_151
  */
 public interface JedisClient {
+
     String get(String key);
 
     String set(String key, String value);
