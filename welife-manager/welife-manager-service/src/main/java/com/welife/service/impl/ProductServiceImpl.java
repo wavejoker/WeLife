@@ -53,6 +53,13 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public WeProduct getProductById(Long productId) {
+        WeProductExample example = new WeProductExample();
+        WeProductExample.Criteria criteria = example.createCriteria();
+        criteria.andIdEqualTo(productId);
+        List<WeProduct> products = productMapper.selectByExample(example);
+        if (products != null && products.size() > 0){
+            return products.get(0);
+        }
         return null;
     }
 

@@ -21,6 +21,13 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
+    @RequestMapping("/product/{productId}")
+    @ResponseBody
+    public WeProduct getProductById(@PathVariable Long productId) {
+        WeProduct product = productService.getProductById(productId);
+        return product;
+    }
+
     /**
      * 显示商品列表
      *
@@ -57,7 +64,7 @@ public class ProductController {
         return WeLifeResult.ok(productDesc);
     }
 
-    @RequestMapping("item/param/item/query/{productId}")
+    @RequestMapping("/product/param/item/query/{productId}")
     @ResponseBody
     public WeLifeResult queryProductParamItem(@PathVariable Long productId) {
         WeLifeResult productParamItem = productService.getProductParamItemById(productId);

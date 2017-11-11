@@ -1,3 +1,4 @@
+com/welife/common/pojo/WeProductParamWithName.class
 com/welife/common/utils/WeLifeResult.class
 com/welife/common/utils/FtpUtil.class
 com/welife/common/utils/ExceptionUtil.class
@@ -10,4 +11,3 @@ com/welife/common/pojo/EUTreeNode.class
 com/welife/common/pojo/SearchResult.class
 com/welife/common/pojo/PictureResult.class
 com/welife/common/utils/IDUtils.class
-com/welife/common/pojo/TbItemParamWithName.class

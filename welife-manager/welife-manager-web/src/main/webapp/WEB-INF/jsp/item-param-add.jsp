@@ -92,7 +92,7 @@
 					});					
 				}
 			});
-			var url = "/item/param/save/"+$("#itemParamAddTable [name=cid]").val();
+			var url = "/product/param/save/"+$("#itemParamAddTable [name=cid]").val();
 			$.post(url,{"paramData":JSON.stringify(params)},function(data){
 				if(data.status == 200){
 					$.messager.alert('提示','新增商品规格成功!',undefined,function(){

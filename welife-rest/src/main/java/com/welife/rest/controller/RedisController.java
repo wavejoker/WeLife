@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @author Creeper
@@ -20,9 +22,10 @@ public class RedisController {
     @Autowired
     private RedisService redisService;
 
-    @RequestMapping("/content/{contentCid}")
+    @RequestMapping(value = "/content/{contentCid}", method = RequestMethod.GET)
+    @ResponseBody
     public WeLifeResult contentCacheSync(@PathVariable Long contentCid){
         WeLifeResult result = redisService.syncContent(contentCid);
-        return  WeLifeResult.ok();
+        return  result;
     }
 }

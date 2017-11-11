@@ -30,7 +30,6 @@ public class RedisServiceImpl implements RedisService {
     @Override
     public WeLifeResult syncContent(Long contentCid) {
         try {
-            System.out.println(INDEX_CONTENT_REDIS_KEY);
             jedisClient.hdel(INDEX_CONTENT_REDIS_KEY, contentCid + "");
         } catch (Exception e) {
             e.printStackTrace();
