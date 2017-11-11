@@ -7,7 +7,7 @@
     <file url="file://$PROJECT_DIR$/welife-manager/welife-manager-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/welife-manager/welife-manager-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/welife-manager/welife-manager-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/welife-parent/parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/welife-parent/welife-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/welife-rest" charset="UTF-8" />
   </component>
 </project>
