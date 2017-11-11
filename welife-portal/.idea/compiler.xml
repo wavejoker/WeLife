@@ -12,6 +12,7 @@
         <module name="welife-manager-service" />
         <module name="welife-manager-web" />
         <module name="welife-portal" />
+        <module name="welife-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="welife-manager-web" target="1.7" />
       <module name="welife-parent" target="1.7" />
       <module name="welife-portal" target="1.5" />
+      <module name="welife-rest" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

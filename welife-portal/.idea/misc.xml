@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../welife-manager/welife-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../welife-rest" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -11,6 +12,7 @@
         <option value="$PROJECT_DIR$/../welife-common/pom.xml" />
         <option value="$PROJECT_DIR$/../welife-parent/welife-parent/pom.xml" />
         <option value="$PROJECT_DIR$/../welife-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../welife-rest/pom.xml" />
       </list>
     </option>
   </component>
