@@ -10,7 +10,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/surefire-reports/TEST-com.welife.AppTest.xml" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/surefire-reports/TEST-com.welife.AppTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/surefire-reports/com.welife.AppTest.txt" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-pojo/target/surefire-reports/com.welife.AppTest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/welife-manager/welife-manager-service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/welife-rest/src/main/java/com/welife/rest/controller/ProductController.java" afterPath="$PROJECT_DIR$/welife-rest/src/main/java/com/welife/rest/controller/ProductController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/welife-/parent/target/" />
     <ignored path="$PROJECT_DIR$/welife-common/target/" />
@@ -864,7 +863,7 @@
       <workItem from="1510386255190" duration="1288000" />
       <workItem from="1510388103152" duration="329000" />
       <workItem from="1510388459159" duration="128000" />
-      <workItem from="1510388619324" duration="5982000" />
+      <workItem from="1510388619324" duration="6263000" />
     </task>
     <task id="LOCAL-00001" summary="项目创建">
       <created>1509612405209</created>
@@ -950,7 +949,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510396166210</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="WeLife-Rest项目基本功能完成">
+      <created>1510396302499</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1510396302499</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -986,7 +992,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201194000" />
+    <option name="totallyTimeSpent" value="201475000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
