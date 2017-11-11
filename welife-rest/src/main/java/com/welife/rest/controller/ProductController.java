@@ -22,6 +22,10 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
+    /**
+     * 根据商品ID获取商品基本信息
+     * @param productId
+     */
     @RequestMapping("/info/{productId}")
     @ResponseBody
     public WeLifeResult getProductBaseInfo(@PathVariable Long productId){
@@ -29,6 +33,10 @@ public class ProductController {
         return WeLifeResult.ok(productBaseInfo);
     }
 
+    /**
+     * 根据商品ID获取商品描述
+     * @param productId
+     */
     @RequestMapping("/desc/{productId}")
     @ResponseBody
     public WeLifeResult getProductDesc(@PathVariable Long productId){
@@ -37,9 +45,8 @@ public class ProductController {
     }
 
     /**
-     *
+     * 根据商品ID获取商品参数信息
      * @param productId
-     * @return
      */
     @RequestMapping("/param/{productId}")
     @ResponseBody
