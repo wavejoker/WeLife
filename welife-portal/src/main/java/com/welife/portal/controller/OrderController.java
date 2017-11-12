@@ -5,17 +5,17 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.welife.pojo.WeUser;
+import com.welife.portal.pojo.CartItem;
+import com.welife.portal.pojo.Order;
+import com.welife.portal.service.CartService;
+import com.welife.portal.service.OrderService;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.taotao.pojo.TbUser;
-import com.taotao.portal.pojo.CartItem;
-import com.taotao.portal.pojo.Order;
-import com.taotao.portal.service.CartService;
-import com.taotao.portal.service.OrderService;
 
 /**
  * 订单管理Controller
@@ -46,10 +46,10 @@ public class OrderController {
 	public String creatOrder(Order order, HttpServletRequest request, Model model) {
 		try {
 			// 从request中取user对象
-			TbUser user = (TbUser) request.getAttribute("user");
+			WeUser user = (WeUser) request.getAttribute("user");
 			//在order对象中补全用户信息
 			order.setUserId(user.getId());
-			order.setBuyerNick(user.getUsername());
+			order.setBuyerNick(user.getNickname());
 			String orderId = orderService.createOrder(order);
 			model.addAttribute("orderId", orderId);
 			model.addAttribute("payment", order.getPayment());

@@ -83,7 +83,6 @@ public class ProductServiceImpl implements ProductService {
 					sb.append("<th bgcolor=\"#224499\" colspan=\"2\" width=\"30%\">" + m1.get("group") + "</th>\n");
 					sb.append("</tr>\n");
 					List<Map> list2 = (List<Map>) m1.get("params");
-
 					for (Map m2 : list2) {
 						sb.append("<tr>\n");
 						sb.append("<td>" + m2.get("k") + "</td>\n");

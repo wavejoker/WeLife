@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.welife.common.utils.CookieUtils;
 import com.welife.pojo.WeUser;
-import com.welife.portal.service.UserService;
+
 import com.welife.portal.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class LoginInterceptor implements HandlerInterceptor{
 
 	@Autowired
-	private UserService userService;
+	private UserServiceImpl userService;
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
