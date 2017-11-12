@@ -1,18 +1,19 @@
 package com.welife.portal.service.impl;
 
+import com.welife.common.utils.HttpClientUtil;
+import com.welife.common.utils.JsonUtils;
+import com.welife.common.utils.WeLifeResult;
+import com.welife.pojo.WeContent;
+import com.welife.portal.service.ContentService;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
 
-import com.taotao.common.utils.HttpClientUtil;
-import com.taotao.common.utils.JsonUtils;
-import com.taotao.common.utils.TaotaoResult;
-import com.taotao.pojo.TbContent;
-import com.taotao.portal.service.ContentService;
 
 /**
  * 
@@ -35,23 +36,23 @@ public class ContentServiceImpl implements ContentService {
 		String result = HttpClientUtil.doGet(REST_BASE_URL + REST_INDEX_AD_URL);
 		// 把字符串转换成TaotaoResult
 		try {
-			TaotaoResult taotaoResult = TaotaoResult.formatToList(result, TbContent.class);
+			WeLifeResult result1 = WeLifeResult.formatToList(result, WeContent.class);
 			// 取内容列表
 			@SuppressWarnings("unchecked")
-			List<TbContent> list = (List<TbContent>) taotaoResult.getData();
+			List<WeContent> list = (List<WeContent>) result1.getData();
 
 			List<Map<String, Object>> resultList = new ArrayList<>();
 			// 创建一个符合JSP页面的POJO列表
-			for (TbContent tbContent : list) {
+			for (WeContent weContent : list) {
 				Map<String, Object> map = new HashMap<>();
-				map.put("src", tbContent.getPic());
+				map.put("src", weContent.getPic());
 				map.put("height", 240);
 				map.put("width", 670);
-				map.put("srcB", tbContent.getPic2());
+				map.put("srcB", weContent.getPic2());
 				map.put("heightB", 240);
 				map.put("widthB", 550);
-				map.put("href", tbContent.getUrl());
-				map.put("alt", tbContent.getSubTitle());
+				map.put("href", weContent.getUrl());
+				map.put("alt", weContent.getSubTitle());
 				resultList.add(map);
 			}
 			return JsonUtils.objectToJson(resultList);

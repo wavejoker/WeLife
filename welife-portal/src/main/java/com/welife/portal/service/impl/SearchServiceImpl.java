@@ -28,7 +28,7 @@ public class SearchServiceImpl implements SearchService {
 
 	@Override
 	public SearchResult search(String queryString, Integer pages) {
-		// 调用taotao-search服务
+		// 调用welife-search服务
 		// 查询参数
 		Map<String, String> param = new HashMap<>();
 		param.put("q", queryString);
