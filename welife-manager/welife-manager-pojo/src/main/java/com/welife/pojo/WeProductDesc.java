@@ -13,7 +13,7 @@ public class WeProductDesc {
         this.productId = productId;
     }
 
-    public String getProductDesc(String desc) {
+    public String getProductDesc() {
         return productDesc;
     }
 
