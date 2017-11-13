@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../welife-common/welife-common.iml" filepath="$PROJECT_DIR$/../welife-common/welife-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-manager/welife-manager.iml" filepath="$PROJECT_DIR$/../welife-manager/welife-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-manager/welife-manager-mapper/welife-manager-mapper.iml" filepath="$PROJECT_DIR$/../welife-manager/welife-manager-mapper/welife-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-manager/welife-manager-pojo/welife-manager-pojo.iml" filepath="$PROJECT_DIR$/../welife-manager/welife-manager-pojo/welife-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-manager/welife-manager-service/welife-manager-service.iml" filepath="$PROJECT_DIR$/../welife-manager/welife-manager-service/welife-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-manager/welife-manager-web/welife-manager-web.iml" filepath="$PROJECT_DIR$/../welife-manager/welife-manager-web/welife-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-parent/welife-parent/welife-parent.iml" filepath="$PROJECT_DIR$/../welife-parent/welife-parent/welife-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-portal/welife-portal.iml" filepath="$PROJECT_DIR$/../welife-portal/welife-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-rest/welife-rest.iml" filepath="$PROJECT_DIR$/../welife-rest/welife-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/welife-search.iml" filepath="$PROJECT_DIR$/welife-search.iml" />
     </modules>
   </component>

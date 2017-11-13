@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../welife-manager/welife-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../welife-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/../welife-rest" />
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../welife-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/../welife-parent/welife-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../welife-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../welife-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/../welife-manager/pom.xml" />
       </list>
     </option>
   </component>
