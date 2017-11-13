@@ -21,14 +21,14 @@ import java.util.List;
 @Service
 public class ProductCatServiceImpl implements ProductCatService {
     @Autowired
-    private WeProductCategoryMapper weProductCategoryMapper;
+    private WeProductCategoryMapper productCategoryMapper;
 
     @Override
     public List<EUTreeNode> getCatList(Long parentId) {
         WeProductCategoryExample example = new WeProductCategoryExample();
         WeProductCategoryExample.Criteria criteria = example.createCriteria();
         criteria.andParentIdEqualTo(parentId);
-        List<WeProductCategory> productCategories = weProductCategoryMapper.selectByExample(example);
+        List<WeProductCategory> productCategories = productCategoryMapper.selectByExample(example);
         List<EUTreeNode> treeNodes = new ArrayList<>();
         for (WeProductCategory productCategory : productCategories) {
             //创建一个treeNode对象
@@ -48,7 +48,7 @@ public class ProductCatServiceImpl implements ProductCatService {
     }
     @Override
     public String getProductCatNameById(Long id) {
-        String name = weProductCategoryMapper.selectNameByPrimaryKey(id);
+        String name = productCategoryMapper.selectNameByPrimaryKey(id);
         return name;
     }
 
