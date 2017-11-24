@@ -34,7 +34,7 @@ public class ProductServiceImpl implements ProductService {
                 document.setField("id", product.getId());
                 document.setField("product_title", product.getTitle());
                 document.setField("product_sell_point", product.getSell_point());
-                document.setField("product_price", product.getPrice());
+                document.setField("product_price", product.getPrice()+"");
                 document.setField("product_img", product.getImg());
                 document.setField("product_category_name", product.getCategory_name());
                 document.setField("product_desc", product.getProduct_desc());

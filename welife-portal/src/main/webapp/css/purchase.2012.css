@@ -245,7 +245,6 @@ a.btn:hover,a.btn:hover span {
 }
 .cart .cart-hd .btn-text {
 	line-height: 21px;
-	a
 }
 .cart-frame {
 	height: 0;
@@ -1627,7 +1626,7 @@ color:#999;
 	color: #ff6600;
 	font-weight: bold;
 }
-.feature-service .tab li a: link,.tab li a:visited {
+.feature-service .tab li a:link,.tab li a:visited {
 	color: #333333;
 }
 .f-sercvice-list .item {

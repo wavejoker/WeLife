@@ -36,7 +36,7 @@ public class SearchController {
 		SearchResult searchResult = searchService.search(queryString, page);
 		model.addAttribute("query", queryString);
 		model.addAttribute("totalPages", searchResult.getPageCount());
-		model.addAttribute("itemList", searchResult.getItemList());
+		model.addAttribute("itemList", searchResult.getProductList());
 		model.addAttribute("page", page);
 		return "search";
 	}
