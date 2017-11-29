@@ -1,8 +1,8 @@
-com/welife/controller/ProductParamItemController.class
-com/welife/controller/ProductController.class
-com/welife/controller/ContentController.class
-com/welife/controller/ProductParamController.class
-com/welife/controller/ContentCategoryController.class
-com/welife/controller/PagesController.class
-com/welife/controller/PictureController.class
-com/welife/controller/ProductCatController.class
+com\welife\controller\PictureController.class
+com\welife\controller\ProductParamItemController.class
+com\welife\controller\ContentController.class
+com\welife\controller\ProductController.class
+com\welife\controller\PagesController.class
+com\welife\controller\ProductCatController.class
+com\welife\controller\ContentCategoryController.class
+com\welife\controller\ProductParamController.class

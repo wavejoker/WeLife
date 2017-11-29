@@ -17,12 +17,12 @@ public class FTPClientTest {
     public void testFtp() throws Exception {
         //1、连接ftp服务器
         FTPClient ftpClient = new FTPClient();
-        ftpClient.connect("192.168.19.129", 21);
+        ftpClient.connect("192.168.44.128", 21);
         //2、登录ftp服务器
         boolean login = ftpClient.login("ftpuser", "ftproot");
         System.out.println(login);
         //3、读取本地文件
-        FileInputStream inputStream = new FileInputStream(new File("/home/creeper/wallpaper/2310.jpg"));
+        FileInputStream inputStream = new FileInputStream(new File("F:\\Wallpaper\\icos\\wave.ico"));
         //4、上传文件
         //1）指定上传目录
         boolean b = ftpClient.changeWorkingDirectory("/home/ftpuser/www/images");

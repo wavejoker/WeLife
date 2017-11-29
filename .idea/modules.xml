@@ -9,7 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/welife-manager/welife-manager-service/welife-manager-service.iml" filepath="$PROJECT_DIR$/welife-manager/welife-manager-service/welife-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/welife-manager/welife-manager-web/welife-manager-web.iml" filepath="$PROJECT_DIR$/welife-manager/welife-manager-web/welife-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/welife-parent/welife-parent/welife-parent.iml" filepath="$PROJECT_DIR$/welife-parent/welife-parent/welife-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/welife-portal/welife-portal.iml" filepath="$PROJECT_DIR$/welife-portal/welife-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/welife-rest/welife-rest.iml" filepath="$PROJECT_DIR$/welife-rest/welife-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/welife-search/welife-search.iml" filepath="$PROJECT_DIR$/welife-search/welife-search.iml" />
     </modules>
   </component>
 </project>

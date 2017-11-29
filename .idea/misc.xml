@@ -2,7 +2,9 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/welife-manager" />
+    <file type="web" url="file://$PROJECT_DIR$/welife-portal" />
     <file type="web" url="file://$PROJECT_DIR$/welife-rest" />
+    <file type="web" url="file://$PROJECT_DIR$/welife-search" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -15,6 +17,8 @@
         <option value="$PROJECT_DIR$/welife-parent/parent/pom.xml" />
         <option value="$PROJECT_DIR$/welife-rest/pom.xml" />
         <option value="$PROJECT_DIR$/welife-parent/welife-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/welife-search/pom.xml" />
+        <option value="$PROJECT_DIR$/welife-portal/pom.xml" />
       </list>
     </option>
   </component>
@@ -27,7 +31,7 @@
     <resource url="http://www.springframework.org/schema/tx" location="$PROJECT_DIR$/../../Files/schema/tx/spring-tx-4.1.xsd" />
     <resource url="http://www.springframework.org/schema/util" location="$PROJECT_DIR$/../../Files/schema/util/spring-util-4.1.xsd" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
