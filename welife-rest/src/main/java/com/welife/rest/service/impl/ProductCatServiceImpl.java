@@ -45,8 +45,7 @@ public class ProductCatServiceImpl implements ProductCatService {
         try {
             String resultString = jedisClient.hget(INDEX_ITEMCAT_REDIS_KEY, parentId + "");
             if (!StringUtils.isBlank(resultString)) {
-                List<Object> resultList = JsonUtils.jsonToList(resultString, Object.class);
-                return resultList;
+                return JsonUtils.jsonToList(resultString, Object.class);
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -58,7 +57,7 @@ public class ProductCatServiceImpl implements ProductCatService {
         // 执行查询
         List<WeProductCategory> list = productCategoryMapper.selectByExample(example);
         // 返回值List
-        List resultList = new ArrayList<>();
+        List<Object> resultList = new ArrayList<>();
         // 向List中添加节点
         // 添加计数器,只显示14条记录
         int count = 0;

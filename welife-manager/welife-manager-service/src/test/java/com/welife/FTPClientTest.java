@@ -14,17 +14,19 @@ import java.io.FileInputStream;
 public class FTPClientTest {
 
     @Test
-    public void testFtp() throws Exception {
+    public void  testFtp() throws Exception {
         //1、连接ftp服务器
         FTPClient ftpClient = new FTPClient();
         ftpClient.connect("192.168.44.128", 21);
+
         //2、登录ftp服务器
         boolean login = ftpClient.login("ftpuser", "ftproot");
         System.out.println(login);
         //3、读取本地文件
-        FileInputStream inputStream = new FileInputStream(new File("F:\\Wallpaper\\icos\\wave.ico"));
+        FileInputStream inputStream = new FileInputStream(new File("F:\\Wallpaper\\949.jpg"));
         //4、上传文件
         //1）指定上传目录
+//        ftpClient.enterLocalPassiveMode();
         boolean b = ftpClient.changeWorkingDirectory("/home/ftpuser/www/images");
         System.out.println(b);
         //2）指定文件类型
@@ -32,9 +34,23 @@ public class FTPClientTest {
         System.out.println(b1);
         //第一个参数：文件在远程服务器的名称
         //第二个参数：文件流
+
+        ftpClient.setControlEncoding("UTF-8");
         boolean b2 = ftpClient.storeFile("hello.jpg", inputStream);
         System.out.println(b2);
         //5、退出登录
         ftpClient.logout();
     }
+
+//    @Test
+//    public void tttt(){
+//
+//        int x = 3;
+//        int y = 4;
+//        boolean b;
+//        b = x<y || ++x== --y;
+//        System.out.println(b);
+//        System.out.println(x);
+//        System.out.println(y);
+//    }
 }

@@ -9,11 +9,11 @@ public class PagesController {
 
     /**
      * 展示首页面
-     * @param string
+     * @param
      * @return
      */
     @RequestMapping("/")
-    public String showIndex(String string) {
+    public String showIndex() {
         return "index";
     }
 

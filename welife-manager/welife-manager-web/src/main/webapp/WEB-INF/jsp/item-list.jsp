@@ -10,7 +10,6 @@
             <th data-options="field:'sellPoint',width:100">卖点</th>
             <th data-options="field:'price',width:70,align:'right',formatter:TAOTAO.formatPrice">价格</th>
             <th data-options="field:'num',width:70,align:'right'">库存数量</th>
-            <th data-options="field:'barcode',width:100">条形码</th>
             <th data-options="field:'status',width:60,align:'center',formatter:TAOTAO.formatItemStatus">状态</th>
             <th data-options="field:'created',width:130,align:'center',formatter:TAOTAO.formatDateTime">创建日期</th>
             <th data-options="field:'updated',width:130,align:'center',formatter:TAOTAO.formatDateTime">更新日期</th>
@@ -63,7 +62,7 @@
         			$.getJSON('/product/query/product/desc/'+data.id,function(_data){
         				if(_data.status == 200){
         					//UM.getEditor('itemeEditDescEditor').setContent(_data.data.itemDesc, false);
-        					itemEditEditor.html(_data.data.itemDesc);
+        					itemEditEditor.html(_data.data.productDesc);
         				}
         			});
         			
@@ -71,7 +70,7 @@
         			$.getJSON('/product/param/item/query/'+data.id,function(_data){
         				if(_data && _data.status == 200 && _data.data && _data.data.paramData){
         					$("#itemeEditForm .params").show();
-        					$("#itemeEditForm [name=itemParams]").val(_data.data.paramData);
+        					$("#itemeEditForm [name=productParams]").val(_data.data.paramData);
         					$("#itemeEditForm [name= ]").val(_data.data.id);
         					
         					//回显商品规格
@@ -139,7 +138,7 @@
         	$.messager.confirm('确认','确定下架ID为 '+ids+' 的商品吗？',function(r){
         	    if (r){
         	    	var params = {"ids":ids};
-                	$.post("/rest/item/instock",params, function(data){
+                	$.post("/rest/product/instock",params, function(data){
             			if(data.status == 200){
             				$.messager.alert('提示','下架商品成功!',undefined,function(){
             					$("#itemList").datagrid("reload");

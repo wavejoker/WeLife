@@ -32,16 +32,10 @@
 	            <td><input class="easyui-numberbox" type="text" name="num" data-options="min:1,max:99999999,precision:0,required:true" /></td>
 	        </tr>
 	        <tr>
-	            <td>条形码:</td>
-	            <td>
-	                <input class="easyui-textbox" type="text" name="barcode" data-options="validType:'length[1,30]'" />
-	            </td>
-	        </tr>
-	        <tr>
 	            <td>商品图片:</td>
 	            <td>
 	            	<a href="javascript:void(0)" class="easyui-linkbutton picFileUpload">上传图片</a>
-	                <input type="hidden" name="image"/>
+	                <input type="hidden" name="img"/>
 	            </td>
 	        </tr>
 	        <tr>
@@ -57,8 +51,8 @@
 	        	</td>
 	        </tr>
 	    </table>
-	    <input type="hidden" name="itemParams"/>
-	    <input type="hidden" name="itemParamId"/>
+	    <input type="hidden" name="productParams"/>
+	    <input type="hidden" name="productParamId"/>
 	</form>
 	<div style="padding:5px">
 	    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">提交</a>
@@ -98,9 +92,9 @@
 		});
 		paramJson = JSON.stringify(paramJson);
 		
-		$("#itemeEditForm [name=itemParams]").val(paramJson);
+		$("#itemeEditForm [name=productParams]").val(paramJson);
 		
-		$.post("/rest/item/update",$("#itemeEditForm").serialize(), function(data){
+		$.post("/product/update",$("#itemeEditForm").serialize(), function(data){
 			if(data.status == 200){
 				$.messager.alert('提示','修改商品成功!','info',function(){
 					$("#itemEditWindow").window('close');

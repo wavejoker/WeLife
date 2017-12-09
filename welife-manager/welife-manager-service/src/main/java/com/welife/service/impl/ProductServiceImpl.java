@@ -21,6 +21,7 @@ import java.util.List;
 
 /**
  * 商品管理服务实现类
+ *
  * @Author: Creeper
  * @Date: 17-10-22 下午10:23
  */
@@ -57,7 +58,7 @@ public class ProductServiceImpl implements ProductService {
         WeProductExample.Criteria criteria = example.createCriteria();
         criteria.andIdEqualTo(productId);
         List<WeProduct> products = productMapper.selectByExample(example);
-        if (products != null && products.size() > 0){
+        if (products != null && products.size() > 0) {
             return products.get(0);
         }
         return null;
@@ -74,15 +75,20 @@ public class ProductServiceImpl implements ProductService {
         product.setUpdated(new Date());
         productMapper.insert(product);
         WeLifeResult result = insertProductDesc(productId, desc);
+
+        if (result.getStatus() != 200){
+            throw new Exception();
+        }
         return result;
     }
 
 
-    private WeLifeResult insertProductDesc(Long productId, String desc){
+    private WeLifeResult insertProductDesc(Long productId, String desc) {
         WeProductDesc productDesc = new WeProductDesc();
         productDesc.setProductId(productId);
         productDesc.setProductDesc(desc);
-        productDescMapper.insert(productDesc);
+        int insert = productDescMapper.insert(productDesc);
+        System.out.println(insert);
         return WeLifeResult.ok();
     }
 
@@ -96,6 +102,18 @@ public class ProductServiceImpl implements ProductService {
     public WeLifeResult getProductParamItemById(Long productId) {
         WeProductParamItem productParamItem = paramItemMapper.selectByPrimaryKey(productId);
         return WeLifeResult.ok(productParamItem);
+    }
+
+    @Override
+    public WeLifeResult updateProductById(WeProduct product) {
+        product.setStatus(1);
+        product.setUpdated(new Date());
+        int i = productMapper.updateByPrimaryKey(product);
+        if (i == 1) {
+            return WeLifeResult.ok();
+        } else {
+            return WeLifeResult.build(500, "无返回数据!");
+        }
     }
 
 

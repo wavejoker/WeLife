@@ -26,7 +26,7 @@
 <div class="clr"></div>
 <div class="m clearfix" id="bottom_pager">
 <div  id="pagin-btm" class="pagin fr" clstag="search|keycount|search|pre-page2">
-	<span class="prev-disabled">上一页<b></b></span>
+	<span class="prev-disabled">上一页</span>
 	<a href="javascript:void(0)" class="current">1</a>
 	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=2">2</a>
 	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=3">3</a>
@@ -43,12 +43,12 @@
 <c:forEach items="${itemList}" var="item">
 <li class="item-book" bookid="11078102">
 	<div class="p-img">
-		<a target="_blank" href="/item/${item.id }.html">
+		<a target="_blank" href="/product/${item.id }.html">
 			<img width="160" height="160" data-img="1" data-lazyload="${item.imgs[0]}" />
 		</a>
 	</div>
 	<div class="p-name">
-		<a target="_blank" href="/item/${item.id }.html">
+		<a target="_blank" href="/product/${item.id }.html">
 			${item.title}
 		</a>
 	</div>

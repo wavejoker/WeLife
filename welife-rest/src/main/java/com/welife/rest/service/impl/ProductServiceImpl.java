@@ -80,7 +80,7 @@ public class ProductServiceImpl implements ProductService {
         try {
             jedisClient.set(REDIS_PRODUCT_KEY + ":" + productId + ":desc", JsonUtils.objectToJson(productDesc));
             jedisClient.expire(REDIS_PRODUCT_KEY + ":" + productId + ":desc", REDIS_PRODUCT_EXPIRE);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return WeLifeResult.ok(productDesc);
@@ -104,9 +104,22 @@ public class ProductServiceImpl implements ProductService {
         try {
             jedisClient.set(REDIS_PRODUCT_KEY + ":" + productId + ":param", JsonUtils.objectToJson(productParam));
             jedisClient.expire(REDIS_PRODUCT_KEY + ":" + productId + ":param", REDIS_PRODUCT_EXPIRE);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return WeLifeResult.ok(productParam);
+    }
+
+    @Override
+    public WeLifeResult deleteProduct(Long[] ids) {
+        for (Long id : ids) {
+            productDescMapper.deleteByPrimaryKey(id);
+            try {
+                jedisClient.del(REDIS_PRODUCT_KEY + ":" + id + ":param");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return WeLifeResult.ok();
     }
 }

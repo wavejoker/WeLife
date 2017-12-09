@@ -42,7 +42,19 @@ public interface ProductService {
      */
     WeLifeResult getProductDescById(Long productId);
 
+    /**
+     * 根据商品ID获取商品参数
+     * @param productId
+     * @return
+     */
     WeLifeResult getProductParamItemById(Long productId);
+
+    /**
+     * 根据商品ID更新商品信息
+     * @param product
+     * @return
+     */
+    WeLifeResult updateProductById(WeProduct product);
 
 
 }

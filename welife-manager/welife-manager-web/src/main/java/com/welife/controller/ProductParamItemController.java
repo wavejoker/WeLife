@@ -22,10 +22,10 @@ public class ProductParamItemController {
 	private ProductParamItemService productParamItemService;
 
 	@RequestMapping("/showProduct/{productId}")
-	public String showItemParam(@PathVariable Long itemId, Model model){
-		String string = productParamItemService.getProductParamByProductId(itemId);
+	public String showItemParam(@PathVariable Long productId, Model model){
+		String string = productParamItemService.getProductParamByProductId(productId);
 		model.addAttribute("productParam", string);
-		return "product";
+		return "item";
 	}
 
 }

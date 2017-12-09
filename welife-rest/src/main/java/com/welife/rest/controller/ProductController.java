@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -30,8 +31,9 @@ public class ProductController {
     @ResponseBody
     public WeLifeResult getProductBaseInfo(@PathVariable Long productId){
         WeLifeResult productBaseInfo = productService.getProductBaseInfo(productId);
-        return WeLifeResult.ok(productBaseInfo);
+        return productBaseInfo;
     }
+
 
     /**
      * 根据商品ID获取商品描述
@@ -41,7 +43,7 @@ public class ProductController {
     @ResponseBody
     public WeLifeResult getProductDesc(@PathVariable Long productId){
         WeLifeResult productDesc = productService.getProductDesc(productId);
-        return WeLifeResult.ok(productDesc);
+                                                                                                                                              return WeLifeResult.ok(productDesc);
     }
 
     /**
@@ -54,4 +56,11 @@ public class ProductController {
         WeLifeResult productParam = productService.getProductParam(productId);
         return WeLifeResult.ok(productParam);
     }
+
+    @RequestMapping(value = "/delete", method = RequestMethod.POST)
+    @ResponseBody
+    public WeLifeResult deleteProudect(Long[] ids){
+        return productService.deleteProduct(ids);
+    }
+
 }

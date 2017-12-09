@@ -71,4 +71,11 @@ public class ProductController {
         return WeLifeResult.ok(productParamItem);
     }
 
+
+    @RequestMapping(value = "/product/update")
+    @ResponseBody
+    public WeLifeResult updateProduct(WeProduct product){
+        return productService.updateProductById(product);
+    }
+
 }

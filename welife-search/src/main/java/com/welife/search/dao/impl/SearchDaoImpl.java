@@ -6,7 +6,6 @@ import java.util.Map;
 
 import com.welife.common.pojo.Product;
 import com.welife.common.pojo.SearchResult;
-import com.welife.common.utils.WeLifeResult;
 import com.welife.search.dao.SearchDao;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServer;
@@ -47,18 +46,18 @@ public class SearchDaoImpl implements SearchDao {
 		for (SolrDocument solrDocument : solrDocumentList) {
 			// 创建一商品对象
 			Product product = new Product();
-			product.setCategory_name((String) solrDocument.get("item_category_name"));
+			product.setCategory_name((String) solrDocument.get("product_category_name"));
 			product.setId((String) solrDocument.get("id"));
-			product.setImg((String) solrDocument.get("item_image"));
-			product.setPrice((Long) solrDocument.get("item_price"));
-			product.setSell_point((String) solrDocument.get("item_sell_point"));
+			product.setImg((String) solrDocument.get("product_img"));
+			product.setPrice((Long) solrDocument.get("product_price"));
+			product.setSell_point((String) solrDocument.get("product_sell_point"));
 			String title = "";
 			// 取高亮显示的结果
-			List<String> list = highlighting.get(solrDocument.get("id")).get("item_title");
+			List<String> list = highlighting.get(solrDocument.get("id")).get("product_title");
 			if (list != null && list.size() > 0) {
 				title = list.get(0);
 			} else {
-				title = (String) solrDocument.get("item_title");
+				title = (String) solrDocument.get("product_title");
 			}
 			product.setTitle(title);
 			// 添加的商品列表

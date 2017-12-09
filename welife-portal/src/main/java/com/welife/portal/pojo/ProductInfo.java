@@ -6,17 +6,17 @@ import org.apache.commons.lang3.StringUtils;
 
 public class ProductInfo extends WeProduct{
 
-	private String[] images;
+	private String[] imgs;
 
-	public void setImages(String[] images) {
-		this.images = images;
+	public void setImgs(String[] imgs) {
+		this.imgs = imgs;
 	}
 
-	public String[] getImages() {
-		String image = getImg();
-		if(!StringUtils.isBlank(image)){
-			images = image.split(",");
-			return images;
+	public String[] getImgs() {
+		String img = getImg();
+		if(!StringUtils.isBlank(img)){
+			imgs = img.split(",");
+			return imgs;
 		}
 
 		return null;

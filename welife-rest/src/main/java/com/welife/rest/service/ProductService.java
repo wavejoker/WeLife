@@ -29,4 +29,6 @@ public interface ProductService {
      * @return
      */
     WeLifeResult getProductParam(Long productId);
+
+    WeLifeResult deleteProduct(Long[] ids);
 }

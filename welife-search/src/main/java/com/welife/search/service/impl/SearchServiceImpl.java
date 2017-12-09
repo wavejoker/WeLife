@@ -34,7 +34,7 @@ public class SearchServiceImpl implements SearchService {
 		query.set("df", "product_keywords");
 		// 设置高亮显示
 		query.setHighlight(true);
-		query.addHighlightField("item_title");
+		query.addHighlightField("product_title");
 		query.setHighlightSimplePre("<em style=\"color:#E4393C\">");
 		query.setHighlightSimplePost("</em>");
 		// 执行查询

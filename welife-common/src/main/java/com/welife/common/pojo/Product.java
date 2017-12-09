@@ -59,7 +59,11 @@ public class Product {
     }
 
     public String[] getImgs() {
-        return imgs;
+        if(img != null){
+            String[] imgs = img.split(",");
+            return imgs;
+        }
+        return null;
     }
 
     public void setImgs(String[] imgs) {

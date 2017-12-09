@@ -93,7 +93,7 @@ var TT = TAOTAO = {
 								imgArray.push(data.url);
 								form.find(".pics ul").append("<li><a href='"+data.url+"' target='_blank'><img src='"+data.url+"' width='80' height='50' /></a></li>");
 							});
-							form.find("[name=image]").val(imgArray.join(","));
+							form.find("[name=img]").val(imgArray.join(","));
 							editor.hideDialog();
 						}
 					});
@@ -234,7 +234,7 @@ var TT = TAOTAO = {
     initOnePicUpload : function(){
     	$(".onePicUpload").click(function(){
 			var _self = $(this);
-			KindEditor.editor(TT.kingEditorParams).loadPlugin('image', function() {
+			KindEditor.editor(TT.kingEditorParams).loadPlugin('img', function() {
 				this.plugin.imageDialog({
 					showRemote : false,
 					clickFn : function(url, title, width, height, border, align) {

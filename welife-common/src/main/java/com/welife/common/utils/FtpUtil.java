@@ -40,6 +40,7 @@ public class FtpUtil {
 			String filePath, String filename, InputStream input) {
 		boolean result = false;
 		FTPClient ftp = new FTPClient();
+		ftp.setControlEncoding("UTF-8");
 		try {
 			int reply;
 			ftp.connect(host, port);// 连接FTP服务器
@@ -83,6 +84,7 @@ public class FtpUtil {
 				try {
 					ftp.disconnect();
 				} catch (IOException ioe) {
+					ioe.printStackTrace();
 				}
 			}
 		}
@@ -104,6 +106,7 @@ public class FtpUtil {
 			String fileName, String localPath) {
 		boolean result = false;
 		FTPClient ftp = new FTPClient();
+		ftp.setControlEncoding("UTF-8");
 		try {
 			int reply;
 			ftp.connect(host, port);

@@ -2,7 +2,7 @@
 <link href="/js/kindeditor-4.1.10/themes/default/default.css" type="text/css" rel="stylesheet">
 <script type="text/javascript" charset="utf-8" src="/js/kindeditor-4.1.10/kindeditor-all-min.js"></script>
 <script type="text/javascript" charset="utf-8" src="/js/kindeditor-4.1.10/lang/zh_CN.js"></script>
-<div style="padding:10px 10px 10px 10px">
+<div style="padding:10px 10px 10px 10px" >
 	<form id="itemAddForm" class="itemForm" method="post">
 	    <table cellpadding="5">
 	        <tr>
@@ -31,16 +31,10 @@
 	            <td><input class="easyui-numberbox" type="text" name="num" data-options="min:1,max:99999999,precision:0,required:true" /></td>
 	        </tr>
 	        <tr>
-	            <td>条形码:</td>
-	            <td>
-	                <input class="easyui-textbox" type="text" name="barcode" data-options="validType:'length[1,30]'" />
-	            </td>
-	        </tr>
-	        <tr>
 	            <td>商品图片:</td>
 	            <td>
 	            	 <a href="javascript:void(0)" class="easyui-linkbutton picFileUpload">上传图片</a>
-	                 <input type="hidden" name="image"/>
+	                 <input type="hidden" name="img"/>
 	            </td>
 	        </tr>
 	        <tr>
@@ -52,11 +46,10 @@
 	        <tr class="params hide">
 	        	<td>商品规格:</td>
 	        	<td>
-	        		
 	        	</td>
 	        </tr>
 	    </table>
-	    <input type="hidden" name="itemParams"/>
+	    <input type="hidden" name="productParams"/>
 	</form>
 	<div style="padding:5px">
 	    <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">提交</a>
@@ -64,7 +57,7 @@
 	</div>
 </div>
 <script type="text/javascript">
-	var itemAddEditor ;
+	var itemAddEditor;
 	//页面初始化完毕后执行此方法
 	$(function(){
 		//创建富文本编辑器
@@ -107,7 +100,7 @@
 		});
 		//把json对象转换成字符串
 		paramJson = JSON.stringify(paramJson);
-		$("#itemAddForm [name=itemParams]").val(paramJson);
+		$("#itemAddForm [name=productParams]").val(paramJson);
 		
 		//ajax的post方式提交表单
 		//$("#itemAddForm").serialize()将表单序列号为key-value形式的字符串
