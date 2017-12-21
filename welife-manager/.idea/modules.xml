@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/welife-manager.iml" filepath="$PROJECT_DIR$/welife-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/welife-manager-mapper/welife-manager-mapper.iml" filepath="$PROJECT_DIR$/welife-manager-mapper/welife-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/welife-manager-pojo/welife-manager-pojo.iml" filepath="$PROJECT_DIR$/welife-manager-pojo/welife-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/welife-manager-service/welife-manager-service.iml" filepath="$PROJECT_DIR$/welife-manager-service/welife-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/welife-manager-web/welife-manager-web.iml" filepath="$PROJECT_DIR$/welife-manager-web/welife-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-parent/welife-parent/welife-parent.iml" filepath="$PROJECT_DIR$/../welife-parent/welife-parent/welife-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-portal/welife-portal.iml" filepath="$PROJECT_DIR$/../welife-portal/welife-portal.iml" />
+    </modules>
+  </component>
+</project>
