@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="welife-sso:war">
+    <output-path>$PROJECT_DIR$/../welife-sso/target</output-path>
+    <root id="archive" name="welife-sso.war">
+      <element id="artifact" artifact-name="welife-sso:war exploded" />
+    </root>
+  </artifact>
+</component>

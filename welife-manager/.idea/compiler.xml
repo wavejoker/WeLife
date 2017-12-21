@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="welife-common" />
         <module name="welife-manager-mapper" />
         <module name="welife-manager-pojo" />
         <module name="welife-manager-service" />
         <module name="welife-manager-web" />
         <module name="welife-portal" />
+        <module name="welife-rest" />
+        <module name="welife-search" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="welife-common" target="1.7" />
       <module name="welife-manager" target="1.7" />
       <module name="welife-manager-mapper" target="1.7" />
       <module name="welife-manager-pojo" target="1.7" />
@@ -21,6 +25,9 @@
       <module name="welife-manager-web" target="1.7" />
       <module name="welife-parent" target="1.7" />
       <module name="welife-portal" target="1.7" />
+      <module name="welife-rest" target="1.7" />
+      <module name="welife-search" target="1.7" />
+      <module name="welife-sso" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
