@@ -1,0 +1,6 @@
+com\welife\sso\service\UseService.class
+com\welife\sso\dao\impl\JedisClusterClient.class
+com\welife\sso\dao\JedisClient.class
+com\welife\sso\service\impl\UserServiceImpl.class
+com\welife\sso\dao\impl\JedisSingleClient.class
+com\welife\sso\controller\UserController.class
