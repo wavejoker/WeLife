@@ -175,52 +175,62 @@ public class WeUserExample {
             return (Criteria) this;
         }
 
-        public Criteria andUsernameEqualTo(Long value) {
+        public Criteria andUsernameEqualTo(String value) {
             addCriterion("username =", value, "username");
             return (Criteria) this;
         }
 
-        public Criteria andUsernameNotEqualTo(Long value) {
+        public Criteria andUsernameNotEqualTo(String value) {
             addCriterion("username <>", value, "username");
             return (Criteria) this;
         }
 
-        public Criteria andUsernameGreaterThan(Long value) {
+        public Criteria andUsernameGreaterThan(String value) {
             addCriterion("username >", value, "username");
             return (Criteria) this;
         }
 
-        public Criteria andUsernameGreaterThanOrEqualTo(Long value) {
+        public Criteria andUsernameGreaterThanOrEqualTo(String value) {
             addCriterion("username >=", value, "username");
             return (Criteria) this;
         }
 
-        public Criteria andUsernameLessThan(Long value) {
+        public Criteria andUsernameLessThan(String value) {
             addCriterion("username <", value, "username");
             return (Criteria) this;
         }
 
-        public Criteria andUsernameLessThanOrEqualTo(Long value) {
+        public Criteria andUsernameLessThanOrEqualTo(String value) {
             addCriterion("username <=", value, "username");
             return (Criteria) this;
         }
 
-        public Criteria andUsernameIn(List<Long> values) {
+        public Criteria andUsernameLike(String value) {
+            addCriterion("username like", value, "username");
+            return (Criteria) this;
+        }
+
+        public Criteria andUsernameNotLike(String value) {
+            addCriterion("username not like", value, "username");
+            return (Criteria) this;
+        }
+
+        public Criteria andUsernameIn(List<String> values) {
             addCriterion("username in", values, "username");
             return (Criteria) this;
         }
 
-        public Criteria andUsernameNotIn(List<Long> values) {
+        public Criteria andUsernameNotIn(List<String> values) {
             addCriterion("username not in", values, "username");
             return (Criteria) this;
         }
 
-        public Criteria andUsernameBetween(Long value1, Long value2) {
+        public Criteria andUsernameBetween(String value1, String value2) {
             addCriterion("username between", value1, value2, "username");
             return (Criteria) this;
         }
 
-        public Criteria andUsernameNotBetween(Long value1, Long value2) {
+        public Criteria andUsernameNotBetween(String value1, String value2) {
             addCriterion("username not between", value1, value2, "username");
             return (Criteria) this;
         }
@@ -422,6 +432,146 @@ public class WeUserExample {
 
         public Criteria andExpNotBetween(Long value1, Long value2) {
             addCriterion("exp not between", value1, value2, "exp");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatIsNull() {
+            addCriterion("wechat is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatIsNotNull() {
+            addCriterion("wechat is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatEqualTo(String value) {
+            addCriterion("wechat =", value, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatNotEqualTo(String value) {
+            addCriterion("wechat <>", value, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatGreaterThan(String value) {
+            addCriterion("wechat >", value, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatGreaterThanOrEqualTo(String value) {
+            addCriterion("wechat >=", value, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatLessThan(String value) {
+            addCriterion("wechat <", value, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatLessThanOrEqualTo(String value) {
+            addCriterion("wechat <=", value, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatLike(String value) {
+            addCriterion("wechat like", value, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatNotLike(String value) {
+            addCriterion("wechat not like", value, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatIn(List<String> values) {
+            addCriterion("wechat in", values, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatNotIn(List<String> values) {
+            addCriterion("wechat not in", values, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatBetween(String value1, String value2) {
+            addCriterion("wechat between", value1, value2, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andWechatNotBetween(String value1, String value2) {
+            addCriterion("wechat not between", value1, value2, "wechat");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailIsNull() {
+            addCriterion("email is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailIsNotNull() {
+            addCriterion("email is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailEqualTo(String value) {
+            addCriterion("email =", value, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailNotEqualTo(String value) {
+            addCriterion("email <>", value, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailGreaterThan(String value) {
+            addCriterion("email >", value, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailGreaterThanOrEqualTo(String value) {
+            addCriterion("email >=", value, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailLessThan(String value) {
+            addCriterion("email <", value, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailLessThanOrEqualTo(String value) {
+            addCriterion("email <=", value, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailLike(String value) {
+            addCriterion("email like", value, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailNotLike(String value) {
+            addCriterion("email not like", value, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailIn(List<String> values) {
+            addCriterion("email in", values, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailNotIn(List<String> values) {
+            addCriterion("email not in", values, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailBetween(String value1, String value2) {
+            addCriterion("email between", value1, value2, "email");
+            return (Criteria) this;
+        }
+
+        public Criteria andEmailNotBetween(String value1, String value2) {
+            addCriterion("email not between", value1, value2, "email");
             return (Criteria) this;
         }
 

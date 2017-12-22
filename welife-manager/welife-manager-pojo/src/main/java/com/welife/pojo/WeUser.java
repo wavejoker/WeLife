@@ -5,13 +5,17 @@ import java.util.Date;
 public class WeUser {
     private Long id;
 
-    private Long username;
+    private String username;
 
     private String password;
 
     private String nickname;
 
     private Long exp;
+
+    private String wechat;
+
+    private String email;
 
     private String phone;
 
@@ -43,12 +47,12 @@ public class WeUser {
         this.id = id;
     }
 
-    public Long getUsername() {
+    public String getUsername() {
         return username;
     }
 
-    public void setUsername(Long username) {
-        this.username = username;
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
     }
 
     public String getPassword() {
@@ -73,6 +77,22 @@ public class WeUser {
 
     public void setExp(Long exp) {
         this.exp = exp;
+    }
+
+    public String getWechat() {
+        return wechat;
+    }
+
+    public void setWechat(String wechat) {
+        this.wechat = wechat == null ? null : wechat.trim();
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email == null ? null : email.trim();
     }
 
     public String getPhone() {

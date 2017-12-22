@@ -1,7 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f45bf72-beb7-40d4-88ea-25defe8fefa2" name="Default" comment="" />
+    <list default="true" id="3f45bf72-beb7-40d4-88ea-25defe8fefa2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeIdentityMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeIdentityMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeIdentityMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeIdentityMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeMessageMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeMessageMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeMessageMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeMessageMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderItemMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderItemMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderItemMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderItemMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderShippingMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderShippingMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderShippingMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderShippingMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrganizationMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrganizationMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrganizationMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrganizationMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortReplyMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortReplyMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortReplyMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortReplyMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePostCategoryMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePostCategoryMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePostCategoryMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePostCategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductCategoryMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductCategoryMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductCategoryMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductCategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductDescMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductDescMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductDescMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductDescMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductLvwordMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductLvwordMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductLvwordMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductLvwordMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamItemMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamItemMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamItemMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamItemMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePuductParamMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePuductParamMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeRolesMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeRolesMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeRolesMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeRolesMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeSignMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeSignMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeSignMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeSignMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeUserMapper.java" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeUserMapper.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeUserMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeUserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeContentCategoryMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeContentCategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeContentMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeContentMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeIdentityMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeIdentityMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeMessageMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeMessageMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeOrderItemMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeOrderItemMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeOrderMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeOrderMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeOrderShippingMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeOrderShippingMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeOrganizationMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeOrganizationMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WePortMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WePortMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WePortReplyMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WePortReplyMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WePostCategoryMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WePostCategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductCategoryMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductCategoryMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductDescMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductDescMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductLvwordMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductLvwordMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductParamItemMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductParamItemMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductParamMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeProductParamMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WePuductParamMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeRolesMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeRolesMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeSignMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeSignMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeUserMapper.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/classes/com/welife/mapper/WeUserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/surefire-reports/TEST-com.welife.AppTest.xml" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/surefire-reports/TEST-com.welife.AppTest.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-mapper/target/surefire-reports/com.welife.AppTest.txt" afterPath="$PROJECT_DIR$/welife-manager-mapper/target/surefire-reports/com.welife.AppTest.txt" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeContent.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeContent.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeContentCategory.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeContentCategory.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeContentCategoryExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeContentCategoryExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeContentExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeContentExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeIdentity.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeIdentity.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeIdentityExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeIdentityExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeMessage.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeMessage.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeMessageExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeMessageExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrder.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrder.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderItem.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderItem.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderItemExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderItemExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderShipping.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderShipping.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderShippingExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrderShippingExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrganization.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrganization.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrganizationExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrganizationExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePort.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePort.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePortExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePortExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePortReply.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePortReply.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePortReplyExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePortReplyExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePostCategory.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePostCategory.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePostCategoryExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePostCategoryExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProduct.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProduct.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductCategory.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductCategory.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductCategoryExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductCategoryExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductDesc.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductDesc.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductDescExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductDescExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductLvword.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductLvword.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductLvwordExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductLvwordExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductParam.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductParam.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductParamExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductParamExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductParamItem.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductParamItem.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductParamItemExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductParamItemExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePuductParam.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePuductParamExample.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeRoles.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeRoles.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeRolesExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeRolesExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeSign.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeSign.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeSignExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeSignExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeUser.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeUser.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeUserExample.java" afterPath="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeUserExample.java" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/welife-manager-pojo/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/welife-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/welife-manager-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/target/surefire-reports/TEST-com.welife.AppTest.xml" afterPath="$PROJECT_DIR$/welife-manager-pojo/target/surefire-reports/TEST-com.welife.AppTest.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-pojo/target/surefire-reports/com.welife.AppTest.txt" afterPath="$PROJECT_DIR$/welife-manager-pojo/target/surefire-reports/com.welife.AppTest.txt" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/welife-manager-service/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-service/target/surefire-reports/TEST-com.welife.FTPClientTest.xml" afterPath="$PROJECT_DIR$/welife-manager-service/target/surefire-reports/TEST-com.welife.FTPClientTest.xml" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-service/target/surefire-reports/com.welife.FTPClientTest.txt" afterPath="$PROJECT_DIR$/welife-manager-service/target/surefire-reports/com.welife.FTPClientTest.txt" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-web/target/tomcat/conf/logging.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-web/target/tomcat/conf/tomcat-users.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-web/target/tomcat/conf/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-web/target/tomcat/logs/access_log.2017-12-21" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/welife-manager-web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/logs/access_log.2017-12-21" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_jsp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/search_jsp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-rest/target/tomcat/logs/access_log.2017-12-21" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-search/target/tomcat/logs/access_log.2017-12-21" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/.idea/misc.xml" afterPath="$PROJECT_DIR$/../welife-sso/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../welife-sso/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/pom.xml" afterPath="$PROJECT_DIR$/../welife-sso/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/src/main/webapp/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/welife-sso.iml" afterPath="$PROJECT_DIR$/../welife-sso/welife-sso.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/welife-manager-mapper/target/" />
     <ignored path="$PROJECT_DIR$/welife-manager-pojo/target/" />
     <ignored path="$PROJECT_DIR$/welife-manager-service/target/" />
@@ -20,20 +165,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../welife-rest/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="resource.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/resource/resource.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="21">
+              <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../welife-search/pom.xml">
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/resource/db.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -42,7 +199,152 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="applicationContext-jedis.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-jedis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="40" column="63" lean-forward="true" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="120" column="52" lean-forward="false" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisSingleClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisSingleClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-161">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/JedisClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisClusterClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClusterClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisPool.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <marker date="1511870358550" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1511870358550" expanded="false" signature="143:516" ph="..." />
+                <marker date="1511870358550" expanded="false" signature="585:596" ph=" { " />
+                <marker date="1511870358550" expanded="false" signature="628:634" ph=" }" />
+                <marker date="1511870358550" expanded="true" signature="706:788" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="834:935" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="971:1811" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="1946:2768" ph="{...}" />
+                <marker date="1511870358550" expanded="false" signature="2799:2810" ph=" { " />
+                <marker date="1511870358550" expanded="false" signature="2862:2868" ph=" }" />
+                <marker date="1511870358550" expanded="true" signature="2999:3113" ph="{...}" />
+                <marker date="1511870358550" expanded="false" signature="3157:3168" ph=" { " />
+                <marker date="1511870358550" expanded="false" signature="3218:3224" ph=" }" />
+                <marker date="1511870358550" expanded="true" signature="3368:3485" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="3597:3678" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="3803:3889" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="4113:4250" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="4332:4414" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="4509:4596" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="4790:4928" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="5023:5108" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="5216:5306" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="5513:5654" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="5780:5868" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="6007:6100" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="6338:6482" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="6627:6798" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="6956:7125" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="7382:7533" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="7815:7997" ph="{...}" />
+                <marker date="1511870358550" expanded="false" signature="8064:8075" ph=" { " />
+                <marker date="1511870358550" expanded="false" signature="8108:8114" ph=" }" />
+                <marker date="1511870358550" expanded="true" signature="8281:8376" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="8457:8513" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="8693:8800" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="8906:9083" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="9288:9501" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="9534:9648" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="9654:9672" ph="/**...*/" />
+                <marker date="1511870358550" expanded="true" signature="9742:9847" ph="{...}" />
+                <marker date="1511870358550" expanded="true" signature="9853:9871" ph="/**...*/" />
+                <marker date="1511870358550" expanded="true" signature="9935:10294" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>taotao</find>
+      <find>TaotaoResult</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>welife</replace>
+      <replace>WeLifeResult</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -53,6 +355,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../welife-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/resources/resource/db.properties" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClient.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClientTest.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/JedisClient.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClusterClient.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisSingleClient.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrder.java" />
+        <option value="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePostCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePostCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-jedis.xml" />
       </list>
     </option>
   </component>
@@ -64,15 +388,28 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="welife-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="welife-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="y" value="-6" />
-    <option name="width" value="683" />
+    <option name="x" value="92" />
+    <option name="y" value="-12" />
+    <option name="width" value="1370" />
     <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -80,7 +417,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -89,19 +426,110 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="welife-search" type="462c0819:PsiDirectoryNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="welife" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="welife" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="welife" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="welife" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
@@ -109,10 +537,28 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../welife-sso" />
+    <property name="last_opened_file_path" value="F:/t" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.welife.sso.dao.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Ubuntu\Work\IDEA\welife\welife-manager\welife-manager-mapper\src\main\java\com\welife\mapper" />
+      <recent name="F:\Ubuntu\Work\IDEA\welife\welife-manager\welife-manager-pojo\src\main\java\com\welife\pojo" />
+      <recent name="F:\Ubuntu\Work\IDEA\welife\welife-sso\src\main\java\com\welife\sso\controller" />
+      <recent name="F:\Ubuntu\Work\IDEA\welife\welife-sso\src\main\java\com\welife\sso\service" />
+      <recent name="F:\Ubuntu\Work\IDEA\welife\welife-sso\src\main\java\com\welife\sso\service\impl" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,7 +572,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.SSO">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -168,6 +614,78 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="Manager" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/welife-manager-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="Portal" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../welife-portal" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="Rest" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../welife-rest" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration name="SSO" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -188,6 +706,30 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/../welife-sso" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="Search" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../welife-search" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -232,9 +774,19 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Maven.Manager" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.Search" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.Portal" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.Rest" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.SSO" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="showProfilesPanel" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -246,46 +798,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513855286006</updated>
-      <workItem from="1513855289402" duration="1848000" />
+      <workItem from="1513855289402" duration="1977000" />
+      <workItem from="1513857329955" duration="2884000" />
+      <workItem from="1513913214571" duration="958000" />
+      <workItem from="1513917842234" duration="3439000" />
+      <workItem from="1513926165854" duration="4304000" />
+      <workItem from="1513937149287" duration="2581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1848000" />
+    <option name="totallyTimeSpent" value="16143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24158126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32766616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,8 +855,351 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../welife-search/pom.xml">
+    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductDescExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeRolesExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeUserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="517" column="39" lean-forward="false" selection-start-line="517" selection-start-column="24" selection-end-line="517" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5005">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5005">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortReplyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrganizationMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderShippingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeIdentityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeMessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrderShippingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeOrganizationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePortReplyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductDescMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductLvwordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductParamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeRolesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeSignMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="416" column="9" lean-forward="true" selection-start-line="416" selection-start-column="9" selection-end-line="416" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePostCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5397">
+          <caret line="257" column="0" lean-forward="false" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
+          <folding>
+            <marker date="1513928813671" expanded="true" signature="3784:3895" ph="select from we_post_category" />
+            <marker date="1513928813671" expanded="true" signature="3979:4044" ph="delete from we_post_category... " />
+            <marker date="1513928813671" expanded="true" signature="4148:4176" ph="delete from we_post_category... " />
+            <marker date="1513928813671" expanded="true" signature="4357:4711" ph="insert into we_post_category... " />
+            <marker date="1513928813671" expanded="true" signature="6252:6289" ph="select count... we_post_category" />
+            <marker date="1513928813671" expanded="true" signature="7513:7934" ph="update we_post_category... " />
+            <marker date="1513928813671" expanded="true" signature="8146:8872" ph="update we_post_category... " />
+            <marker date="1513928813671" expanded="true" signature="8972:9340" ph="update we_post_category... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WePostCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeProductCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5439">
+          <caret line="259" column="11" lean-forward="false" selection-start-line="259" selection-start-column="11" selection-end-line="259" selection-end-column="11" />
+          <folding>
+            <marker date="1513928813201" expanded="true" signature="3814:3928" ph="select from we_product_category" />
+            <marker date="1513928813201" expanded="true" signature="4012:4080" ph="delete from we_product_category... " />
+            <marker date="1513928813201" expanded="true" signature="4187:4218" ph="delete from we_product_category... " />
+            <marker date="1513928813201" expanded="true" signature="4402:4769" ph="insert into we_product_category... " />
+            <marker date="1513928813201" expanded="true" signature="6341:6381" ph="select count... we_product_category" />
+            <marker date="1513928813201" expanded="true" signature="7624:8058" ph="update we_product_category... " />
+            <marker date="1513928813201" expanded="true" signature="8273:9018" ph="update we_product_category... " />
+            <marker date="1513928813201" expanded="true" signature="9121:9502" ph="update we_product_category... " />
+            <marker date="1513928813201" expanded="true" signature="9619:9672" ph="select name we_product_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1513927900244" expanded="true" signature="4642:4794" ph="select , fro... " />
+            <marker date="1513927900244" expanded="true" signature="4878:4937" ph="delete from we_content... " />
+            <marker date="1513927900244" expanded="true" signature="5036:5058" ph="delete from we_content... " />
+            <marker date="1513927900244" expanded="true" signature="5234:5714" ph="insert into we_content... " />
+            <marker date="1513927900244" expanded="true" signature="7685:7716" ph="select count... we_content" />
+            <marker date="1513927900244" expanded="true" signature="9270:9845" ph="update we_content... " />
+            <marker date="1513927900244" expanded="true" signature="10018:10537" ph="update we_content... " />
+            <marker date="1513927900244" expanded="true" signature="10744:11749" ph="update we_content... " />
+            <marker date="1513927900244" expanded="true" signature="11853:12354" ph="update we_content... " />
+            <marker date="1513927900244" expanded="true" signature="12449:12901" ph="update we_content... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5607">
+          <caret line="267" column="11" lean-forward="false" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
+          <folding>
+            <marker date="1513928962319" expanded="true" signature="3814:3928" ph="select from we_content_category" />
+            <marker date="1513928962319" expanded="true" signature="4012:4080" ph="delete from we_content_category... " />
+            <marker date="1513928962319" expanded="true" signature="4187:4218" ph="delete from we_content_category... " />
+            <marker date="1513928962319" expanded="true" signature="4402:4769" ph="insert into we_content_category... " />
+            <marker date="1513928962319" expanded="true" signature="6341:6381" ph="select count... we_content_category" />
+            <marker date="1513928962319" expanded="true" signature="7624:8058" ph="update we_content_category... " />
+            <marker date="1513928962319" expanded="true" signature="8273:9018" ph="update we_content_category... " />
+            <marker date="1513928962319" expanded="true" signature="9121:9502" ph="update we_content_category... " />
+            <marker date="1513928962319" expanded="true" signature="9581:9651" ph="update we_content_category... " />
+            <marker date="1513928962319" expanded="true" signature="9753:9836" ph="update we_content_category s... " />
+            <marker date="1513928962319" expanded="true" signature="9804:9836" ph="update we_content_category set... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welife-manager-web/src/main/java/com/welife/controller/ContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/resource/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/resource/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -307,18 +1207,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../welife-sso/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="136">
+          <caret line="120" column="52" lean-forward="false" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../welife-rest/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <marker date="1511870358550" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1511870358550" expanded="false" signature="143:516" ph="..." />
+            <marker date="1511870358550" expanded="false" signature="585:596" ph=" { " />
+            <marker date="1511870358550" expanded="false" signature="628:634" ph=" }" />
+            <marker date="1511870358550" expanded="true" signature="706:788" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="834:935" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="971:1811" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="1946:2768" ph="{...}" />
+            <marker date="1511870358550" expanded="false" signature="2799:2810" ph=" { " />
+            <marker date="1511870358550" expanded="false" signature="2862:2868" ph=" }" />
+            <marker date="1511870358550" expanded="true" signature="2999:3113" ph="{...}" />
+            <marker date="1511870358550" expanded="false" signature="3157:3168" ph=" { " />
+            <marker date="1511870358550" expanded="false" signature="3218:3224" ph=" }" />
+            <marker date="1511870358550" expanded="true" signature="3368:3485" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="3597:3678" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="3803:3889" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="4113:4250" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="4332:4414" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="4509:4596" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="4790:4928" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="5023:5108" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="5216:5306" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="5513:5654" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="5780:5868" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="6007:6100" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="6338:6482" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="6627:6798" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="6956:7125" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="7382:7533" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="7815:7997" ph="{...}" />
+            <marker date="1511870358550" expanded="false" signature="8064:8075" ph=" { " />
+            <marker date="1511870358550" expanded="false" signature="8108:8114" ph=" }" />
+            <marker date="1511870358550" expanded="true" signature="8281:8376" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="8457:8513" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="8693:8800" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="8906:9083" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="9288:9501" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="9534:9648" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="9654:9672" ph="/**...*/" />
+            <marker date="1511870358550" expanded="true" signature="9742:9847" ph="{...}" />
+            <marker date="1511870358550" expanded="true" signature="9853:9871" ph="/**...*/" />
+            <marker date="1511870358550" expanded="true" signature="9935:10294" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk-9/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClusterClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/JedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisSingleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-jedis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="40" column="63" lean-forward="true" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -377,7 +1378,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>welife-sso</last-edited>
+          <last-edited>welife-manager-mapper</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

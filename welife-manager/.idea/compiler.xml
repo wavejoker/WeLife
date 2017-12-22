@@ -14,6 +14,7 @@
         <module name="welife-portal" />
         <module name="welife-rest" />
         <module name="welife-search" />
+        <module name="welife-sso" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

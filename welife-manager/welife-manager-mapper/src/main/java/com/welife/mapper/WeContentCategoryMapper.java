@@ -31,5 +31,4 @@ public interface WeContentCategoryMapper {
     int updateNameById(WeContentCategory category);
 
     int updateIsParentById(Long id);
-
 }

@@ -2,9 +2,8 @@ package com.welife.mapper;
 
 import com.welife.pojo.WeProductParamItem;
 import com.welife.pojo.WeProductParamItemExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface WeProductParamItemMapper {
     int countByExample(WeProductParamItemExample example);

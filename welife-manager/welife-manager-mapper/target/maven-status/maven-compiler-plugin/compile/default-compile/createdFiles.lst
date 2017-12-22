@@ -5,7 +5,6 @@ com\welife\mapper\WePostCategoryMapper.class
 com\welife\mapper\WeSignMapper.class
 com\welife\mapper\WeProductMapper.class
 com\welife\mapper\WeContentMapper.class
-com\welife\mapper\WePuductParamMapper.class
 com\welife\mapper\WeOrderMapper.class
 com\welife\mapper\WePortReplyMapper.class
 com\welife\mapper\WeProductParamItemMapper.class

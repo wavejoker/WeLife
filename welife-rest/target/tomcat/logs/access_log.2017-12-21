@@ -1,5 +1,0 @@
-127.0.0.1 - - [21/Dec/2017:19:02:43 +0800] "GET /rest/content/list/89 HTTP/1.1" 200 1548 http-bio-8081-exec-1 892
-127.0.0.1 - - [21/Dec/2017:19:03:16 +0800] "GET /rest/productCat/all?callback=category.getDataService HTTP/1.1" 200 30487 http-bio-8081-exec-3 99
-127.0.0.1 - - [21/Dec/2017:19:03:29 +0800] "GET /rest/product/info/151221687898830 HTTP/1.1" 200 336 http-bio-8081-exec-5 18
-127.0.0.1 - - [21/Dec/2017:19:03:31 +0800] "GET /rest/product/desc/151221687898830 HTTP/1.1" 200 81 http-bio-8081-exec-7 15
-127.0.0.1 - - [21/Dec/2017:19:03:32 +0800] "GET /rest/product/param/151221687898830 HTTP/1.1" 200 81 http-bio-8081-exec-9 7

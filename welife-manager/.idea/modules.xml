@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/../welife-portal/welife-portal.iml" filepath="$PROJECT_DIR$/../welife-portal/welife-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/../welife-rest/welife-rest.iml" filepath="$PROJECT_DIR$/../welife-rest/welife-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../welife-search/welife-search.iml" filepath="$PROJECT_DIR$/../welife-search/welife-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../welife-sso/welife-sso.iml" filepath="$PROJECT_DIR$/../welife-sso/welife-sso.iml" />
     </modules>
   </component>
 </project>

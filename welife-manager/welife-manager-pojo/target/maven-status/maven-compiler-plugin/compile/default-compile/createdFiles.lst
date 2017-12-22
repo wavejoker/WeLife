@@ -21,7 +21,6 @@ com\welife\pojo\WeOrderItemExample.class
 com\welife\pojo\WeOrganizationExample$Criteria.class
 com\welife\pojo\WeProductExample$GeneratedCriteria.class
 com\welife\pojo\WeProductLvwordExample$GeneratedCriteria.class
-com\welife\pojo\WePuductParamExample$GeneratedCriteria.class
 com\welife\pojo\WeUserExample$Criteria.class
 com\welife\pojo\WeSignExample$GeneratedCriteria.class
 com\welife\pojo\WePostCategoryExample$GeneratedCriteria.class
@@ -31,19 +30,16 @@ com\welife\pojo\WeRolesExample.class
 com\welife\pojo\WeContent.class
 com\welife\pojo\WeProductExample$Criteria.class
 com\welife\pojo\WePortReplyExample$Criterion.class
-com\welife\pojo\WePuductParam.class
 com\welife\pojo\WeSignExample.class
 com\welife\pojo\WeMessageExample$Criterion.class
 com\welife\pojo\WeMessageExample.class
 com\welife\pojo\WeOrderItemExample$GeneratedCriteria.class
 com\welife\pojo\WeOrderExample$Criteria.class
 com\welife\pojo\WeMessageExample$GeneratedCriteria.class
-com\welife\pojo\WePuductParamExample$Criteria.class
 com\welife\pojo\WeProductLvwordExample$Criteria.class
 com\welife\pojo\WeOrganization.class
 com\welife\pojo\WeOrderShippingExample$Criterion.class
 com\welife\pojo\WeProductCategoryExample$Criterion.class
-com\welife\pojo\WePuductParamExample.class
 com\welife\pojo\WeContentExample$Criteria.class
 com\welife\pojo\WeProductParamItemExample$Criterion.class
 com\welife\pojo\WeProductParamItemExample$GeneratedCriteria.class
@@ -86,7 +82,6 @@ com\welife\pojo\WeSignExample$Criterion.class
 com\welife\pojo\WeMessage.class
 com\welife\pojo\WeIdentityExample.class
 com\welife\pojo\WeProductLvword.class
-com\welife\pojo\WePuductParamExample$Criterion.class
 com\welife\pojo\WeOrganizationExample$Criterion.class
 com\welife\pojo\WeOrderShippingExample$GeneratedCriteria.class
 com\welife\pojo\WeProductLvwordExample$Criterion.class
