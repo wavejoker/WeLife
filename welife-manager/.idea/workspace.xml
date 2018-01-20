@@ -2,894 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f45bf72-beb7-40d4-88ea-25defe8fefa2" name="Default" comment="单点登录系统搭建完成">
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/maven-archiver/pom.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/classes/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/classes/mybatis/SqlMapConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/classes/resource/db.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/classes/resource/resource.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/classes/spring/applicationContext-dao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/classes/spring/applicationContext-service.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/classes/spring/applicationContext-trans.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/classes/spring/springmvc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/css/taotao.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/changelog.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/_content.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/actions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/ajax.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/datagrid_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/expandable.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/multiple.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/accordion/tools.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/custom.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/disabledate.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/firstday.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/calendar/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combo/animation.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combo/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/actions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/combobox_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/combobox_data2.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/customformat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/dynamicdata.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/group.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/icons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/multiline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/multiple.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/navigation.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/remotedata.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combobox/remotejsonp.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/actions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/datagrid_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/initvalue.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/multiple.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combogrid/navigation.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/actions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/initvalue.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/multiple.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/combotree/tree_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/aligncolumns.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cacheeditor.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cellediting.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/cellstyle.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/checkbox.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/clientpagination.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/columngroup.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/complextoolbar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/contextmenu.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/custompager.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/datagrid_data2.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/footer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/formatcolumns.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/frozencolumns.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/frozenrows.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/mergecells.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/multisorting.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/products.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowborder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowediting.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/rowstyle.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/selection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/simpletoolbar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datagrid/transform.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/buttons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/dateformat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/events.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/restrict.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/sharedcalendar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datebox/validate.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/initvalue.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimebox/showseconds.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimespinner/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimespinner/clearicon.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimespinner/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/datetimespinner/format.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/demo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/complextoolbar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/dialog/toolbarbuttons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/constrain.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/draggable/snap.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/accept.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/droppable/sort.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/easyloader/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/filebox/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/filebox/buttonalign.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/filebox/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/form/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/form/form_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/form/load.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/form/validateonsubmit.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/_content.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/addremove.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/autoheight.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/complex.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/datagrid_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/full.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/nestedlayout.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/nocollapsible.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/propertygrid_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/layout/tree_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/group.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/iconalign.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/plain.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/size.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/style.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/linkbutton/toggle.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/customitem.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/menu/events.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/actions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/alignment.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/menubutton/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/alert.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/interactive.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/messager/position.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/format.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/numberbox/range.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/increment.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/numberspinner/range.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/attaching.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/custombuttons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/layout.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/links.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/pagination/simple.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/_content.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/customtools.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/footer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/loadcontent.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/nestedpanel.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/panel/paneltools.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/progressbar/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/progressbar/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/customcolumns.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/groupformat.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/propertygrid/propertygrid_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/resizable/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/category.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/searchbox/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/formattip.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/nonlinear.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/rule.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/slider/vertical.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/splitbutton/actions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/splitbutton/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/_content.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/autoheight.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/dropdown.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/fixedwidth.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/hover.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/images/modem.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/images/pda.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/images/scanner.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/images/tablet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/nestedtabs.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/striptools.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabimage.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabposition.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tabstools.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tabs/tree_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/button.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/clearicon.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/custom.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/icons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/multiline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/textbox/size.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/actions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/timespinner/range.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/_content.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/_dialog.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/ajax.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/customcontent.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/customstyle.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/position.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/toolbar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tooltip/tooltipdialog.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/actions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/animation.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/checkbox.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/contextmenu.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/dnd.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/editable.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/formatting.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/icons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/lazyload.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/lines.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/tree_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/tree/tree_data2.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/actions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/clientpagination.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/contextmenu.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/editable.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/footer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/lines.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/reports.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data2.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/treegrid/treegrid_data3.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/customtooltip.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/validatebox/validateonblur.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/window/basic.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/window/customtools.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/window/fluid.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/window/footer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/window/inlinewindow.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/window/modalwindow.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/demo/window/windowlayout.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/easyloader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/jquery.easyui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/licence_gpl.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-af.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-am.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-bg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ca.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-cs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-cz.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-da.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-el.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-jp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-pt_BR.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-sv_SE.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/locale/easyui-lang-zh_TW.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.accordion.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.calendar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combobox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combogrid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.combotree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datagrid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datebox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datetimebox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.datetimespinner.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.dialog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.draggable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.droppable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.filebox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.layout.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.linkbutton.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.menubutton.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.messager.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.numberbox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.numberspinner.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.pagination.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.panel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.progressbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.propertygrid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.resizable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.searchbox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.slider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.spinner.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.splitbutton.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tabs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.textbox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.timespinner.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.tree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.treegrid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.validatebox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/plugins/jquery.window.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/easyloader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.accordion.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.calendar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.combobox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.datebox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.draggable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.droppable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.linkbutton.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.progressbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.propertygrid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.resizable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.slider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.tabs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/src/jquery.window.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/accordion.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/calendar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/combo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/combobox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/datagrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/datebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/dialog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/easyui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/filebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/accordion_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/calendar_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/combo_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/datagrid_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/datebox_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/layout_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/linkbutton_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/menu_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/messager_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/pagination_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/panel_tools.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/searchbox_button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/slider_handle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/spinner_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/tabs_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/tree_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/images/validatebox_warning.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/layout.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/linkbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/menu.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/menubutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/messager.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/numberbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/pagination.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/panel.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/progressbar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/propertygrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/searchbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/slider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/spinner.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/splitbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/tabs.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/textbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/tooltip.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/tree.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/validatebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/black/window.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/accordion.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/calendar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/combo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/combobox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/datagrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/datebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/dialog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/easyui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/filebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/accordion_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/calendar_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/combo_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/datagrid_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/datebox_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/layout_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/linkbutton_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/menu_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/messager_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/pagination_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/panel_tools.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/searchbox_button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/slider_handle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/spinner_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/tabs_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/tree_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/images/validatebox_warning.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/layout.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/linkbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/menu.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/menubutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/messager.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/numberbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/pagination.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/panel.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/progressbar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/propertygrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/searchbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/slider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/spinner.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/splitbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/tabs.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/textbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/tooltip.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/tree.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/validatebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/bootstrap/window.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/color.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/accordion.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/calendar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/combo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/combobox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/datagrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/datebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/dialog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/easyui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/filebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/accordion_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/calendar_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/combo_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/datagrid_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/datebox_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/layout_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/linkbutton_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/menu_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/messager_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/pagination_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/panel_tools.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/searchbox_button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/slider_handle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/spinner_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/tabs_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/tree_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/images/validatebox_warning.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/layout.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/linkbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/menu.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/menubutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/messager.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/numberbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/pagination.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/panel.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/progressbar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/propertygrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/searchbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/slider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/spinner.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/splitbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/tabs.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/textbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/tooltip.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/tree.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/validatebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/default/window.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/accordion.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/calendar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/combo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/combobox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/datagrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/datebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/dialog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/easyui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/filebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/accordion_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/calendar_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/combo_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/datagrid_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/datebox_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/layout_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/linkbutton_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/menu_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/messager_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/pagination_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/panel_tools.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/searchbox_button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/slider_handle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/spinner_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/tabs_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/tree_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/images/validatebox_warning.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/layout.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/linkbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/menu.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/menubutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/messager.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/numberbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/pagination.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/panel.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/progressbar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/propertygrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/searchbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/slider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/spinner.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/splitbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/tabs.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/textbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/tooltip.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/tree.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/validatebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/gray/window.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icon.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/back.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/cancel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/clear.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/cut.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/edit_add.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/edit_remove.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/filesave.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/filter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/help.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_chart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_clipart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_picture.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_shapes.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/large_smartart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/lock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/man.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/mini_add.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/mini_edit.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/mini_refresh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/no.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/ok.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/pencil.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/print.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/redo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/reload.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/search.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/sum.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/tip.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/icons/undo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/accordion.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/calendar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/combo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/combobox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/datagrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/datebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/dialog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/easyui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/filebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/accordion_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/calendar_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/combo_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/datagrid_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/datebox_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/layout_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/linkbutton_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/menu_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/messager_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/pagination_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/panel_tools.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/searchbox_button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/slider_handle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/spinner_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/tabs_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/tree_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/images/validatebox_warning.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/layout.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/linkbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/menu.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/menubutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/messager.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/numberbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/pagination.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/panel.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/progressbar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/propertygrid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/searchbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/slider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/spinner.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/splitbutton.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/tabs.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/textbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/tooltip.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/tree.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/validatebox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/jquery-easyui-1.4.1/themes/metro/window.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/kindeditor-all-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/kindeditor-all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/kindeditor-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/kindeditor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/lang/ar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/lang/en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/lang/ko.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/lang/zh_CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/lang/zh_TW.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/license.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/anchor/anchor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/autoheight/autoheight.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/baidumap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/baidumap/map.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/clearhtml/clearhtml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/code/code.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/code/prettify.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/code/prettify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/emoticons.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/10.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/100.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/101.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/102.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/103.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/104.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/105.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/106.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/107.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/108.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/109.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/11.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/110.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/111.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/112.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/113.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/114.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/115.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/116.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/117.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/118.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/119.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/12.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/120.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/121.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/122.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/123.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/124.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/125.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/126.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/127.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/128.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/129.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/13.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/130.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/131.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/132.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/133.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/134.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/14.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/15.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/16.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/17.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/18.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/19.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/20.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/21.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/22.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/23.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/24.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/25.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/26.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/27.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/28.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/29.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/30.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/31.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/32.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/33.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/34.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/35.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/36.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/37.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/38.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/39.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/4.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/40.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/41.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/42.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/43.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/44.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/45.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/46.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/47.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/48.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/49.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/5.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/50.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/51.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/52.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/53.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/54.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/55.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/56.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/57.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/58.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/59.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/6.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/60.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/61.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/62.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/63.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/64.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/65.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/66.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/67.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/68.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/69.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/7.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/70.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/71.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/72.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/73.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/74.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/75.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/76.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/77.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/78.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/79.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/8.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/80.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/81.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/82.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/83.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/84.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/85.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/86.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/87.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/88.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/89.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/9.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/90.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/91.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/92.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/93.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/94.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/95.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/96.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/97.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/98.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/99.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/emoticons/images/static.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/filemanager.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/file-16.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/file-64.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/folder-16.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/folder-64.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/filemanager/images/go-up.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/flash/flash.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/image/image.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/image/images/align_left.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/image/images/align_right.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/image/images/align_top.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/image/images/refresh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/insertfile/insertfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/lineheight/lineheight.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/link/link.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/map/map.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/map/map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/media/media.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/images/image.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-en.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/images/select-files-zh_CN.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/multiimage/multiimage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/pagebreak/pagebreak.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/plainpaste/plainpaste.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/preview/preview.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/quickformat/quickformat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/table/table.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/template/html/3.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/template/template.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/plugins/wordpaste/wordpaste.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/common/anchor.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/common/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/common/flash.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/common/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/common/media.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/common/rm.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/default/background.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/default/default.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/default/default.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/qq/editor.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/qq/qq.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/js/kindeditor-4.1.10/themes/simple/simple.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/content-add.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/content-category.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/content-edit.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/content.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/file-upload.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/item-add.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/item-edit.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/item-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/item-param-add.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/item-param-edit.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/item-param-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/item.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/jsp/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/welife-manager-web/target/welife-manager-web/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/logs/access_log.2017-12-22" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-rest/target/tomcat/logs/access_log.2017-12-22" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-search/target/tomcat/logs/access_log.2017-12-22" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/.idea/artifacts/welife_sso_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/.idea/artifacts/welife_sso_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/JedisClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClusterClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisSingleClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/impl/UserServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/resources/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/resources/mybatis/SqlMapConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/resources/resource/db.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/resources/resource/resource.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-dao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-jedis.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-service.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-trans.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/springmvc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/css/login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/css/passport.base.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/css/regist.personal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/544a11d3Na5a3d566.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/login-all-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/one4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/one5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/one6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/phone-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/regist-btn.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/regist-word.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/taotao-logo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/js/jquery-1.6.4.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/jsp/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/jsp/register.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/classes/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/classes/mybatis/SqlMapConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/classes/resource/db.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/classes/resource/resource.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/classes/spring/applicationContext-dao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/classes/spring/applicationContext-jedis.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/classes/spring/applicationContext-service.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/classes/spring/applicationContext-trans.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/classes/spring/springmvc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/tomcat/conf/logging.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/tomcat/conf/tomcat-users.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/tomcat/conf/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/tomcat/logs/access_log.2017-12-22" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../welife-sso/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../welife-common/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/logs/access_log.2017-12-22" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_002dlinks_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/footer_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/header_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/commons/shortcut_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/../welife-portal/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-rest/target/tomcat/logs/access_log.2017-12-22" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-search/target/tomcat/logs/access_log.2017-12-22" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java" afterPath="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/jsp/register.jsp" afterPath="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/jsp/register.jsp" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/target/tomcat/logs/access_log.2017-12-22" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../welife-sso/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" afterPath="$PROJECT_DIR$/../welife-sso/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/login_jsp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/welife-manager-mapper/target/" />
     <ignored path="$PROJECT_DIR$/welife-manager-pojo/target/" />
@@ -923,41 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="resource.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/resource/resource.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/resource/db.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-jedis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-jedis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="120" column="52" lean-forward="false" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+            <state relative-caret-position="3066">
+              <caret line="161" column="36" lean-forward="false" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -966,17 +62,17 @@
       <file leaf-file-name="UseService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="840">
+              <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JedisSingleClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JedisSingleClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisSingleClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="210">
               <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -985,10 +81,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/jsp/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="193" column="30" lean-forward="true" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../welife-common/src/main/java/com/welife/common/utils/IDUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-161">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -1074,6 +200,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -1081,6 +208,7 @@
     <findStrings>
       <find>taotao</find>
       <find>TaotaoResult</find>
+      <find>手机号</find>
     </findStrings>
     <replaceStrings>
       <replace>welife</replace>
@@ -1106,7 +234,6 @@
         <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClientTest.java" />
         <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/JedisClient.java" />
         <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClusterClient.java" />
-        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java" />
         <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisSingleClient.java" />
         <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-service.xml" />
@@ -1121,6 +248,9 @@
         <option value="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/welife-manager-mapper/src/main/java/com/welife/mapper/WeContentCategoryMapper.java" />
         <option value="$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-jedis.xml" />
+        <option value="$PROJECT_DIR$/../welife-common/src/main/java/com/welife/common/utils/AccountValidatorUtil.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java" />
+        <option value="$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/jsp/register.jsp" />
       </list>
     </option>
   </component>
@@ -1133,6 +263,15 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="welife-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="welife-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="welife-sso" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -1170,11 +309,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="welife" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="welife" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welife-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="welife" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1227,61 +427,38 @@
               <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welife" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welife" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="welife-manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="welife-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/t" />
+    <property name="last_opened_file_path" value="E:/Blog/Chsses/Click" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1316,7 +493,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.SSO">
+  <component name="RunManager" selected="Maven.Search">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1548,6 +725,11 @@
       <workItem from="1513917842234" duration="3439000" />
       <workItem from="1513926165854" duration="4304000" />
       <workItem from="1513937149287" duration="3184000" />
+      <workItem from="1513998020117" duration="3533000" />
+      <workItem from="1514022966862" duration="594000" />
+      <workItem from="1514035417952" duration="413000" />
+      <workItem from="1514263457855" duration="929000" />
+      <workItem from="1514290231262" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="单点登录系统搭建完成">
       <created>1513943117233</created>
@@ -1560,7 +742,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16746000" />
+    <option name="totallyTimeSpent" value="22532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -1579,7 +761,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27987897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1607,7 +789,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="单点登录系统搭建完成" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/controller/UserController.java</url>
+          <line>158</line>
+          <properties class="com.welife.sso.controller.UserController" method="userLogout">
+            <option name="EMULATED" value="true" />
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1615,51 +808,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WePort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductDescExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeProductExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeRolesExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeUserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="517" column="39" lean-forward="false" selection-start-line="517" selection-start-column="24" selection-end-line="517" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/welife-manager-pojo/src/main/java/com/welife/pojo/WeOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1667,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5005">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1675,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5005">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1683,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1691,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-819">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1699,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1707,7 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1715,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1723,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1731,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-343">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1739,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1747,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1755,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1763,7 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1771,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-343">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1779,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-343">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1787,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-343">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1795,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1803,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-343">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1811,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1819,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-343">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1827,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-343">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1835,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-217">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1843,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1851,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-217">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1859,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="416" column="9" lean-forward="true" selection-start-line="416" selection-start-column="9" selection-end-line="416" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1867,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="44" column="57" lean-forward="false" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1875,16 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5397">
           <caret line="257" column="0" lean-forward="false" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
-          <folding>
-            <marker date="1513928813671" expanded="true" signature="3784:3895" ph="select from we_post_category" />
-            <marker date="1513928813671" expanded="true" signature="3979:4044" ph="delete from we_post_category... " />
-            <marker date="1513928813671" expanded="true" signature="4148:4176" ph="delete from we_post_category... " />
-            <marker date="1513928813671" expanded="true" signature="4357:4711" ph="insert into we_post_category... " />
-            <marker date="1513928813671" expanded="true" signature="6252:6289" ph="select count... we_post_category" />
-            <marker date="1513928813671" expanded="true" signature="7513:7934" ph="update we_post_category... " />
-            <marker date="1513928813671" expanded="true" signature="8146:8872" ph="update we_post_category... " />
-            <marker date="1513928813671" expanded="true" signature="8972:9340" ph="update we_post_category... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1892,7 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1900,7 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1908,17 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5439">
           <caret line="259" column="11" lean-forward="false" selection-start-line="259" selection-start-column="11" selection-end-line="259" selection-end-column="11" />
-          <folding>
-            <marker date="1513928813201" expanded="true" signature="3814:3928" ph="select from we_product_category" />
-            <marker date="1513928813201" expanded="true" signature="4012:4080" ph="delete from we_product_category... " />
-            <marker date="1513928813201" expanded="true" signature="4187:4218" ph="delete from we_product_category... " />
-            <marker date="1513928813201" expanded="true" signature="4402:4769" ph="insert into we_product_category... " />
-            <marker date="1513928813201" expanded="true" signature="6341:6381" ph="select count... we_product_category" />
-            <marker date="1513928813201" expanded="true" signature="7624:8058" ph="update we_product_category... " />
-            <marker date="1513928813201" expanded="true" signature="8273:9018" ph="update we_product_category... " />
-            <marker date="1513928813201" expanded="true" signature="9121:9502" ph="update we_product_category... " />
-            <marker date="1513928813201" expanded="true" signature="9619:9672" ph="select name we_product_category" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1926,18 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1513927900244" expanded="true" signature="4642:4794" ph="select , fro... " />
-            <marker date="1513927900244" expanded="true" signature="4878:4937" ph="delete from we_content... " />
-            <marker date="1513927900244" expanded="true" signature="5036:5058" ph="delete from we_content... " />
-            <marker date="1513927900244" expanded="true" signature="5234:5714" ph="insert into we_content... " />
-            <marker date="1513927900244" expanded="true" signature="7685:7716" ph="select count... we_content" />
-            <marker date="1513927900244" expanded="true" signature="9270:9845" ph="update we_content... " />
-            <marker date="1513927900244" expanded="true" signature="10018:10537" ph="update we_content... " />
-            <marker date="1513927900244" expanded="true" signature="10744:11749" ph="update we_content... " />
-            <marker date="1513927900244" expanded="true" signature="11853:12354" ph="update we_content... " />
-            <marker date="1513927900244" expanded="true" signature="12449:12901" ph="update we_content... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1945,19 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5607">
           <caret line="267" column="11" lean-forward="false" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
-          <folding>
-            <marker date="1513928962319" expanded="true" signature="3814:3928" ph="select from we_content_category" />
-            <marker date="1513928962319" expanded="true" signature="4012:4080" ph="delete from we_content_category... " />
-            <marker date="1513928962319" expanded="true" signature="4187:4218" ph="delete from we_content_category... " />
-            <marker date="1513928962319" expanded="true" signature="4402:4769" ph="insert into we_content_category... " />
-            <marker date="1513928962319" expanded="true" signature="6341:6381" ph="select count... we_content_category" />
-            <marker date="1513928962319" expanded="true" signature="7624:8058" ph="update we_content_category... " />
-            <marker date="1513928962319" expanded="true" signature="8273:9018" ph="update we_content_category... " />
-            <marker date="1513928962319" expanded="true" signature="9121:9502" ph="update we_content_category... " />
-            <marker date="1513928962319" expanded="true" signature="9581:9651" ph="update we_content_category... " />
-            <marker date="1513928962319" expanded="true" signature="9753:9836" ph="update we_content_category s... " />
-            <marker date="1513928962319" expanded="true" signature="9804:9836" ph="update we_content_category set... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1965,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1973,7 +1050,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk-9/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1981,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1989,22 +1071,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-jedis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="120" column="52" lean-forward="false" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java">
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/JedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClusterClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2060,53 +1157,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk-9/lib/src.zip!/java.base/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/images/544a11d3Na5a3d566.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-common/src/main/java/com/welife/common/utils/AccountValidatorUtil.java" />
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisSingleClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisClusterClient.java">
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/resources/spring/applicationContext-jedis.xml">
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="3066">
+          <caret line="161" column="36" lean-forward="false" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/JedisClient.java">
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/service/UseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="840">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/java/com/welife/sso/dao/impl/JedisSingleClient.java">
+    <entry file="file://$PROJECT_DIR$/../welife-sso/src/main/webapp/WEB-INF/jsp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="269">
+          <caret line="193" column="30" lean-forward="true" selection-start-line="193" selection-start-column="30" selection-end-line="193" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../welife-common/src/main/java/com/welife/common/utils/IDUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
